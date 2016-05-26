@@ -1,10 +1,10 @@
+</br>
 <footer class="site-footer">
   <div class="container">
-    <h2 class="footer-heading">{{ site.title }}</h2>
     <div class="row">
       <div class="col-sm-6">
+        <h4>{{ site.title }}</h4>
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
@@ -13,9 +13,7 @@
         <p>{{ site.description }}</p>
       </div>
     </div>
-
   </div>
-
 </footer>
 <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>

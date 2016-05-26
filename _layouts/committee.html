@@ -1,5 +1,16 @@
 ---
 layout: default
 ---
-
-{{ content }}
+<div class="container">
+  <h1 class="page-header">{{ page.title }}</h1>
+  <div class="row">
+    <div class="col-sm-3">
+      <img class="img-responsive" src="{{ site.baseurl }}/img/committees/{{ page.pic }}" alt="Committee Picture">
+      </br>
+      <a href="#" type="button" class="btn btn-primary btn-block">View Background Guide</a>
+    </div>
+    <div class="col-sm-9">
+      {{ content }}
+    </div>
+  </div>
+</div>

@@ -19,7 +19,7 @@ instagram: "https://www.instagram.com/ontariomodelun/"
 # Build settings
 markdown: kramdown
 
-#Collections
+# Collections
 collections:
   committees:
     output: true

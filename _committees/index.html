@@ -1,0 +1,21 @@
+---
+layout: default
+title: Committees
+---
+
+<div class="container">
+  <table class="table">
+    <tr>
+      <th>Committee Name</th>
+      <th>Committee Type</th>
+      <th>Committee Size</th>
+    </tr>
+    {% for committee in site.committees %}{% unless committee.title == 'Committees' %}
+    <tr>
+      <td><a href="{{ committee.url | prepend: site.baseurl }}">{{ committee.title }} </a></td>
+      <td>{{ committee.type }}</td>
+      <td>{{ committee.size }}</td>
+    </tr>
+    {% endunless %}{% endfor %}
+  </table>
+</div>
