@@ -4,18 +4,24 @@ title: Committees
 ---
 
 <div class="container">
-  <table class="table">
-    <tr>
-      <th>Committee Name</th>
-      <th>Committee Type</th>
-      <th>Committee Size</th>
-    </tr>
-    {% for committee in site.committees %}{% unless committee.title == 'Committees' %}
-    <tr>
-      <td><a href="{{ committee.url | prepend: site.baseurl }}">{{ committee.title }} </a></td>
-      <td>{{ committee.type }}</td>
-      <td>{{ committee.size }}</td>
-    </tr>
-    {% endunless %}{% endfor %}
+  <table class="table" data-toggle="table">
+    <thead>
+      <tr>
+        <th data-field="name" data-sortable="true">Committee Name</th>
+        <th data-field="type" data-sortable="true">Committee Type</th>
+        <th data-field="size" data-sortable="true">Committee Size</th>
+        <th>Committee Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for committee in site.committees %}{% unless committee.title == 'Committees' %}
+      <tr>
+        <td><a href="{{ committee.url | prepend: site.baseurl }}">{{ committee.title }} </a></td>
+        <td>{{ committee.type }}</td>
+        <td>{{ committee.size }}</td>
+        <td>{{ committee.shortbio }}</td>
+      </tr>
+      {% endunless %}{% endfor %}
+    </tbody>
   </table>
 </div>
