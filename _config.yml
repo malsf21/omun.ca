@@ -12,6 +12,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Ontario Model United Nations is a student-run Model United Nations simulation held at Upper Canada College. On the OMUN website, you can discover what committees are available, general conference information, and register as a delegate or school!
 baseurl: "/omun" # the subpath of your site, e.g. /blog
 url: "http://omun.ca" # the base hostname & protocol for your site
+facebook: "https://www.facebook.com/OntarioModelUnitedNations"
+twitter: "https://twitter.com/OntarioMUN"
+instagram: "https://www.instagram.com/ontariomodelun/"
 
 # Build settings
 markdown: kramdown
