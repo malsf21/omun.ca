@@ -4,6 +4,7 @@ title: United Nations Human Rights Council
 pic: unhrc.png
 type: Specialized Agency
 size: "56"
+guide: DelegateGuide.pdf
 shortbio: The United Nations Human Rights Council deals with Human Rights all over the world.
 ---
 

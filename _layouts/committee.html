@@ -13,10 +13,18 @@
         <div class="col-sm-3">
           <img class="img-responsive" src="{{ site.baseurl }}/img/committees/{{ page.pic }}" alt="Committee Picture">
           </br>
-          <a href="#" type="button" class="btn btn-primary btn-block">View Background Guide</a>
+          {% if page.guide %}
+          <a href="{{ site.baseurl }}/files/committees/{{page.guide}}" type="button" class="btn btn-primary btn-block" target="_blank">View Background Guide</a>
+          {% else %}
+            <div style="text-align:center;">
+              <h5><span class="label label-primary">Background Guide Coming Soon!</label></h5>
+            </div>
+          {% endif %}
         </div>
         <div class="col-sm-9">
-          {{ content }}
+          <p class="lead">
+            {{ content }}
+          </p>
         </div>
       </div>
     </div>
