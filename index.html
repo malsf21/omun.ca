@@ -63,10 +63,12 @@ layout: default
           {% for post in site.posts %}
             <div class="panel panel-info">
               <div class="panel-heading">
-              <h3 class="panel-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-            </div>
+                <h3 class="panel-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+              </div>
               <div class="panel-body">
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</span>
+                </br>
+                </br>
                 {{ post.content }}
               </div>
             </div>
