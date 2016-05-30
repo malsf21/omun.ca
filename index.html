@@ -1,11 +1,20 @@
 ---
 layout: default
 ---
-
+<script src="{{site.baseurl}}/js/countdown.js"></script>
+<script type="text/javascript">
+  var deadLine = "4/8/2017"; //Countdown date in MM/DD/YYYY format (no 0's required)
+  window.setInterval(function(){
+    $("#timeLeft").html(getTimeRemaining(deadLine));
+  }, 1000);
+</script>
 <div class="container">
   <div class="jumbotron">
   <h1 class="page-header">Ontario Model United Nations</h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis enim ut massa faucibus ultrices. Nulla faucibus dignissim leo sit amet placerat. Suspendisse in risus massa.</p>
+  <p class="lead">Ontario Model United Nations is a student-run Model United Nations simulation held at Upper Canada College. </p>
+  <p>
+  <b><span id="timeLeft">000 Days, 00 Hours, 00 Minutes, and 00 Seconds</span></b> until OMUN 2017!
+  </p>
   <p><a class="btn btn-primary btn-lg" href="{{ "/about/" | prepend: site.baseurl }}" style="color:white;">Learn more</a></p>
 </div>
 
