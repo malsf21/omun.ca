@@ -1,81 +1,83 @@
----
-layout: default
----
-<script src="{{site.baseurl}}/js/countdown.js"></script>
-<script type="text/javascript">
-  var deadLine = "4/8/2017"; //Countdown date in MM/DD/YYYY format (no 0's required)
-  window.setInterval(function(){
-    $("#timeLeft").html(getTimeRemaining(deadLine));
-  }, 1000);
-</script>
-<div class="container">
-  <div class="jumbotron">
-  <h1 class="page-header">Ontario Model United Nations</h1>
-  <p class="lead">Ontario Model United Nations is a student-run Model United Nations simulation held at Upper Canada College. </p>
-  <p>
-  <b><span id="timeLeft">000 Days, 00 Hours, 00 Minutes, and 00 Seconds</span></b> until OMUN 2017!
-  </p>
-  <p><a class="btn btn-primary btn-lg" href="{{ "/about/" | prepend: site.baseurl }}" style="color:white;">Learn more</a></p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+    <title>Coming Soon | OMUN 2017</title>
+		<link rel="icon" href="favicon.png"></link>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+		<link href="css/coming-sssoon.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<nav class="navbar navbar-transparent navbar-fixed-top" role="navigation">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-container">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    </div>
+		    <div class="collapse navbar-collapse" id="navbar-collapse-container">
+		      <ul class="nav navbar-nav navbar-right">
+		            <li>
+	                <a href="https://www.facebook.com/OntarioModelUnitedNations"><span class="fa fa-facebook-square"></span> Share</a>
+		            </li>
+		             <li>
+		              <a href="https://twitter.com/OntarioMUN"><span class="fa fa-twitter"></span> Tweet</a>
+		            </li>
+		             <li>
+		              <a href="mailto:omun@ucc.on.ca"><span class="fa fa-envelope-o"></span> Email</a>
+		            </li>
+		       </ul>
+		    </div>
+		  </div>
+		</nav>
+		<div class="main" style="background-image: url('images/default.jpg')">
+		    <div class="cover black" data-color="black"></div>
+		    <div class="container">
+		        <h1 class="logo" style="font-size:84px;">OMUN 2017</h1>
+		        <div class="content">
+		            <h4 class="motto">The best student-run Model UN conference.</h4>
+		            <div class="subscribe">
+									<h1 class="motto cursive" style="font-size:108px;" id="timeLeft"></h1>
+	                <h5 class="info-text">More information coming soon.</h5>
+		            </div>
+		        </div>
+		    </div>
+		    <div class="footer">
+		      <div class="container">
+             Made with <span class="fa fa-heart" style="color:red;"></span> by <a href="http://matthewwang.me">Matthew Wang</a>. <a href="https://github.com/malsf21/omun.ca"><span class="fa fa-github" style="color:white;"></span> here.</a>
+		      </div>
+		    </div>
+		 </div>
+		 <script src="js/jquery.min.js" type="text/javascript"></script>
+		 <script src="js/bootstrap.min.js" type="text/javascript"></script>
+		 <script type="text/javascript">
+			 function getTimeRemaining(endtime){
+			 	var t = Date.parse(endtime) - Date.parse(new Date());
+			 	var seconds = Math.floor( (t/1000) % 60 );
+			 	var minutes = Math.floor( (t/1000/60) % 60 );
+			 	var hours = Math.floor( (t/(1000*60*60)) % 24 );
+			 	var days = Math.floor( t/(1000*60*60*24) );
 
-  <div class="row">
-    <div class="col-sm-6">
-      <div class="well">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">What is OMUN?</h3>
-          </div>
-          <div class="panel-body">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis enim ut massa faucibus ultrices. Nulla faucibus dignissim leo sit amet placerat. Suspendisse in risus massa. In vitae felis vel risus porta sollicitudin. Nullam tincidunt eros pellentesque, auctor neque vel, iaculis dolor. Pellentesque non risus est. Donec nisl justo, sagittis ac efficitur at, dignissim sed quam. Nullam et velit erat. Aenean nunc massa, sagittis eu fringilla sed, rhoncus eu velit. Suspendisse iaculis faucibus magna vel efficitur. Nunc ac velit et neque consectetur malesuada. Praesent et sagittis metus. Vestibulum et arcu suscipit, pharetra lorem ut, tristique turpis. Suspendisse euismod, erat ut mollis tempus, velit nisi bibendum est, lacinia aliquam lorem erat nec tortor. Praesent tortor mauris, commodo nec placerat viverra, mollis ut turpis.
-          </div>
-           <div class="panel-footer">
-             <a class="btn btn-primary btn-xs" href="{{ "/about/" | prepend: site.baseurl }}" style="color:white;" role="button">About</a>
-             <a class="btn btn-primary btn-xs" href="{{ "/committees/" | prepend: site.baseurl }}" style="color:white;" role="button">Committees</a>
-             <a class="btn btn-primary btn-xs" href="{{ "/faq/" | prepend: site.baseurl }}" style="color:white;" role="button">FAQ</a>
-             <a class="btn btn-primary btn-xs" href="{{ "/team/" | prepend: site.baseurl }}" style="color:white;" role="button">Team</a>
-           </div>
-        </div>
-      </div>
-      <div class="well">
-        <div class="row" style="text-align:center;">
-          <div class="col-sm-3">
-            <h2><span class="fa fa-user"></span></h2>
-            <h4>Boop.</h4>
-          </div>
-          <div class="col-sm-3">
-            <h2><span class="fa fa-child"></span></h2>
-            <h4>Boop.</h4>
-          </div>
-          <div class="col-sm-3">
-            <h2><span class="fa fa-gavel"></span></h2>
-            <h4>Boop.</h4>
-          </div>
-          <div class="col-sm-3">
-            <h2><span class="fa fa-institution"></span></h2>
-            <h4>Boop.</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6">
-      <div class="well">
-        <div class="bulletin">
-          {% for post in site.posts %}
-            <div class="panel panel-info">
-              <div class="panel-heading">
-                <h3 class="panel-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-              </div>
-              <div class="panel-body">
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</span>
-                </br>
-                </br>
-                {{ post.content }}
-              </div>
-            </div>
-          {% endfor %}
-        </div>
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-      </div>
-    </div>
-  </div>
-</div>
+			 	if (t > 0){
+			 		return days + " d " + hours + " h " + minutes + " m " + seconds + " s";
+			 	}
+			 	else {
+			 		return "Oops!";
+			 	}
+			 }
+
+			 var deadLine = "4/8/2017"; //Countdown date in MM/DD/YYYY format (no 0's required)
+			 window.setInterval(function(){
+			 $("#timeLeft").html(getTimeRemaining(deadLine));
+			 }, 1000);
+		 </script>
+	 </body>
+</html>
