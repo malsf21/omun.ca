@@ -8,7 +8,8 @@
     "size" : "Committee Delegate Size",
     "guide" : "Delegate Guide Location",
     "shortbio" : "Short description of committee.",
-    "permalink" : "Website permalink of committee."
+    "permalink" : "Website permalink of committee.",
+    "image" : "Website permalink of committee picture."
   }
 {% for committee in site.committees %}{% unless committee.type == 'info' %}
   ,"{{committee.short}}" :{
@@ -18,7 +19,8 @@
     "size": "{{committee.size}}",
     "guide": "{{site.url}}{{site.baseurl}}/files/committees/{{committee.guide}}",
     "shortbio": "{{committee.shortbio}}",
-    "permalink": "{{site.url}}{{site.baseurl}}/committees/{{committee.short}}.html"
+    "permalink": "{{site.url}}{{site.baseurl}}/committees/{{committee.short}}.html",
+    "image": "{{site.url}}{{site.baseurl}}/img/committees/{{committee.pic}}",
   }
 {% endunless %}{% endfor %}
 }
