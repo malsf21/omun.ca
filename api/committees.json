@@ -20,7 +20,7 @@
     "guide": "{{site.url}}{{site.baseurl}}/files/committees/{{committee.guide}}",
     "shortbio": "{{committee.shortbio}}",
     "permalink": "{{site.url}}{{site.baseurl}}/committees/{{committee.short}}.html",
-    "image": "{{site.url}}{{site.baseurl}}/img/committees/{{committee.pic}}",
+    "image": "{{site.url}}{{site.baseurl}}/img/committees/{{committee.pic}}"
   }
 {% endunless %}{% endfor %}
 }
