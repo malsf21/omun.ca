@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to the OMUN Website!"
 date:   2016-05-26 12:01:21 -0400
 author: Matthew Wang
+tags: site
 ---
 
 Welcome to the OMUN website! Here you'll find information about Ontario Model United Nations, a Model United Nations simulation held at Upper Canada College. You'll learn more about the committees available, general conference information, and about the OMUN staff that works tirelessly to ensure that OMUN is the best conference that it can be!

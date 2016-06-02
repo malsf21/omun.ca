@@ -3,6 +3,7 @@ layout: post
 title:  "Incoming OMUN 2017 Secretariat/Directors"
 date:   2016-05-30 12:01:21 -0400
 author: Matthew Wang
+tags: general
 ---
 
 Hey guys! Just a quick update, but we've announced our Secretariat and Directors for OMUN 2017. They're dedicated to making OMUN the awesome, completely student-run Model UN simulation it was last year, but also to make the experience better for this year. Here's the list (which you can also find on our [Team Tab]({{site.baseurl}}/team/)):

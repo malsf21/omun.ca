@@ -3,7 +3,7 @@ layout: default
 ---
 <script src="{{site.baseurl}}/js/countdown.js"></script>
 <script type="text/javascript">
-  var deadLine = "4/8/2017"; //Countdown date in MM/DD/YYYY format (no 0's required)
+  var deadLine = "4/22/2017"; //Countdown date in MM/DD/YYYY format (no 0's required)
   window.setInterval(function(){
     $("#timeLeft").html(getTimeRemaining(deadLine));
   }, 1000);
@@ -70,6 +70,7 @@ layout: default
                 </br>
                 </br>
                 {{ post.content }}
+                {% if post.tags %}<span class="label label-warning"><span class="fa fa-tags"></span> tags</span> <span class="label label-warning"><span class="fa fa-tag"></span> {{ post.tags }}</span>{% endif %}
               </div>
             </div>
           {% endfor %}
