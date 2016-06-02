@@ -1,6 +1,7 @@
 ---
 layout: committee
 title: United Nations Human Rights Council
+short: UNHRC
 pic: unhrc.png
 type: Specialized Agency
 size: "56"

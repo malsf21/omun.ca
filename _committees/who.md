@@ -1,6 +1,7 @@
 ---
 layout: committee
 title: World Health Organisation
+short: WHO
 pic: who.bmp
 type: General Assembly
 size: "192"

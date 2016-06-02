@@ -1,0 +1,24 @@
+---
+---
+{
+  "structure":{
+    "name" : "Committee Name",
+    "short" : "Committee Acronym",
+    "type" : "Committee Type",
+    "size" : "Committee Delegate Size",
+    "guide" : "Delegate Guide Location",
+    "shortbio" : "Short description of committee.",
+    "permalink" : "Website permalink of committee."
+  }
+{% for committee in site.committees %}{% unless committee.type == 'info' %}
+  ,"{{committee.short}}" :{
+    "name": "{{committee.title}}",
+    "short": "{{committee.short}}",
+    "type": "{{committee.type}}",
+    "size": "{{committee.size}}",
+    "guide": "{{site.url}}{{site.baseurl}}/files/committees/{{committee.guide}}",
+    "shortbio": "{{committee.shortbio}}",
+    "permalink": "{{site.url}}{{site.baseurl}}/committees/{{committee.short}}.html"
+  }
+{% endunless %}{% endfor %}
+}

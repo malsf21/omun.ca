@@ -1,6 +1,7 @@
 ---
 layout: committee
 title: International Court of Justice
+short: ICJ
 pic: icj.png
 type: Specialized Agency
 size: "20"
