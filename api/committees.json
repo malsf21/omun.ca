@@ -17,9 +17,9 @@
     "short": "{{committee.short}}",
     "type": "{{committee.type}}",
     "size": "{{committee.size}}",
-    "guide": "{{site.url}}{{site.baseurl}}/files/committees/{{committee.guide}}",
+    {% if committee.guide %}"guide": "{{site.url}}{{site.baseurl}}/files/committees/{{committee.guide}}",{% endif %}
     "shortbio": "{{committee.shortbio}}",
-    "permalink": "{{site.url}}{{site.baseurl}}/committees/{{committee.short}}.html",
+    "permalink": "{{site.url}}{{site.baseurl}}/committees{{committee.url}}",
     "image": "{{site.url}}{{site.baseurl}}/img/committees/{{committee.pic}}"
   }
 {% endunless %}{% endfor %}

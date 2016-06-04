@@ -1,0 +1,20 @@
+---
+---
+{
+  "structure":{
+    "title" : "Post Title",
+    "author" : "Post Author",
+    "date" : "Post Date",
+    "tags" : "Post Tags",
+    "permalink" : "Post Permalink"
+  }
+{% for post in site.posts %}
+  ,"{{post.title}}" :{
+    "title": "{{post.title}}",
+    "author": "{{post.author}}",
+    "date": "{{post.date}}",
+    "tags": "{{post.tags}}",
+    "permalink" : "{{site.url}}{{ post.url | prepend: site.baseurl }}"
+  }
+{% endfor %}
+}
