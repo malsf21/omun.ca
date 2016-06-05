@@ -6,6 +6,7 @@
     "author" : "Post Author",
     "date" : "Post Date",
     "tags" : "Post Tags",
+    "excerpt": "Post Excerpt",
     "permalink" : "Post Permalink"
   }
 {% for post in site.posts %}
@@ -14,6 +15,7 @@
     "author": "{{post.author}}",
     "date": "{{post.date}}",
     "tags": "{{post.tags}}",
+    "excerpt": "{{post.excerpt | strip_html |  truncatewords: 40 }}",
     "permalink" : "{{site.url}}{{ post.url | prepend: site.baseurl }}"
   }
 {% endfor %}
