@@ -5,6 +5,7 @@
     "title" : "Post Title",
     "author" : "Post Author",
     "date" : "Post Date",
+    "short": "Short Post Title",
     "tags" : "Post Tags",
     "excerpt": "Post Excerpt",
     "permalink" : "Post Permalink"
@@ -14,6 +15,7 @@
     "title": "{{post.title}}",
     "author": "{{post.author}}",
     "date": "{{post.date}}",
+    "short": "{{post.short}}",
     "tags": "{{post.tags}}",
     "excerpt": "{{post.excerpt | strip_html |  truncatewords: 40 }}",
     "permalink" : "{{site.url}}{{ post.url | prepend: site.baseurl }}"
