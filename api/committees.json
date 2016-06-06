@@ -19,7 +19,7 @@
     "size": "{{committee.size}}",
     {% if committee.guide %}"guide": "{{site.url}}{{site.baseurl}}/files/committees/{{committee.guide}}",{% endif %}
     "shortbio": "{{committee.shortbio}}",
-    "permalink": "{{site.url}}{{site.baseurl}}/committees{{committee.url}}",
+    "permalink": "{{site.url}}{{site.baseurl}}{{committee.url}}",
     "image": "{{site.url}}{{site.baseurl}}/img/committees/{{committee.pic}}"
   }
 {% endunless %}{% endfor %}
