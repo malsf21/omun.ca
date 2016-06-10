@@ -393,14 +393,13 @@ body{
 }
 
 .footer{
-    position: relative;
-    bottom: 0px;
-    right: 0px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     width: 100%;
     color: #AAAAAA;
     z-index: 4;
     text-align: right;
-    margin-top: 100px;
 }
 .footer a{
     color: #FFFFFF;
