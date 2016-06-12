@@ -10,17 +10,22 @@
     "shortbio" : "Short description of committee.",
     "permalink" : "Website permalink of committee.",
     "image" : "Website permalink of committee picture."
-  }
-{% for committee in site.committees %}{% unless committee.type == 'info' %}
-  ,"{{committee.short}}" :{
-    "name": "{{committee.title}}",
-    "short": "{{committee.short}}",
-    "type": "{{committee.type}}",
-    "size": "{{committee.size}}",
-    {% if committee.guide %}"guide": "{{site.url}}{{site.baseurl}}/files/committees/{{committee.guide}}",{% endif %}
-    "shortbio": "{{committee.shortbio}}",
-    "permalink": "{{site.url}}{{site.baseurl}}{{committee.url}}",
-    "image": "{{site.url}}{{site.baseurl}}/img/committees/{{committee.pic}}"
-  }
-{% endunless %}{% endfor %}
+  },
+  "data":[
+  {% for committee in site.committees %}{% unless committee.type == 'info' %}
+    {
+      "name": "{{committee.title}}",
+      "short": "{{committee.short}}",
+      "type": "{{committee.type}}",
+      "size": "{{committee.size}}",
+      {% if committee.guide %}"guide": "{{site.url}}{{site.baseurl}}/files/committees/{{committee.guide}}",{% endif %}
+      "shortbio": "{{committee.shortbio}}",
+      "permalink": "{{site.url}}{{site.baseurl}}{{committee.url}}",
+      "image": "{{site.url}}{{site.baseurl}}/img/committees/{{committee.pic}}"
+    },
+  {% endunless %}{% endfor %}
+    {
+      "message": "That's all."
+    }
+  ]
 }
