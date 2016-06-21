@@ -23,7 +23,13 @@
     },
   {% endfor %}
   {
-    "message": "That's all."
+    "title": "Welcome to OMUN News",
+    "author": "Matthew Wang",
+    "date": "2016-05-26 12:01:21 -0400",
+    "short": "Welcome-To-News",
+    "tags": "site",
+    "excerpt": "Welcome to OMUN News! Here, we will be giving you updates on the conference information, registration, and tools.",
+    "permalink" : "{{site.url}}{{site.baseurl}}/news"
   }
   ]
 }

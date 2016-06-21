@@ -25,7 +25,13 @@
     },
   {% endunless %}{% endfor %}
     {
-      "message": "That's all."
+      "name" : "About OMUN Committees",
+      "short" : "About",
+      "type" : "OMUN",
+      "size" : "42",
+      "shortbio" : "In Model United Nations, committees represent groups of countries (or other entities) that have a common purpose, such as eradicating world hunger, preventing terrorism, or spurring economic growth. At OMUN, there are a diverse set of committees: split into General Assemblies, and Specialised Agencies. ",
+      "permalink" : "{{site.url}}{{site.baseurl}}/committees",
+      "image" : "{{site.url}}{{site.baseurl}}/img/committees/un.png"
     }
   ]
 }
