@@ -14,4 +14,5 @@ A type of `Content` deals with editing content of the website.
 |--------|------|---------|
 | README | General | A Table of Contents of all the information in the `docs` folder |
 | SETUP | Developer | A step-by-step walkthrough of how to setup this website on a local development machine. |
+| ARTICLE | Content | A step-by-step walkthrough of how to write an OMUN News Article.  |
 | COMMITTEE | Content | A step-by-step walkthrough of how to make or edit an OMUN committee information page.  |
