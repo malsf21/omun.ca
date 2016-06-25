@@ -12,8 +12,8 @@ This website uses [Jekyll](https://jekyllrb.com), a static-site generator, [Boot
 
 # Documentation
 
-Documentation of this website is available in the `docs` folder, which includes guides on how to contribute, API Documentation, and anything else about the website.
+Documentation of this website is [here](http://matthewwang.me/omun/docs/); alternatively, you can browse the `docs` folder (but it isn't a complete experience)!
 
 # Setup
 
-The `SETUP.md` file in the `docs` folder of this project gives you a step-by-step walkthrough of how to setup a local copy of this website.
+Visit [this link](http://matthewwang.me/omun/docs/setup.html) or browse the `_docs/setup.md` file to learn how to setup the OMUN website on a local machine.

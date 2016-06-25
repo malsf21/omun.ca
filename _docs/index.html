@@ -1,0 +1,38 @@
+---
+layout: doc
+title: OMUN Docs
+type: info
+---
+
+<div class="container">
+  <p class="lead">
+    Here's a Table of Contents of everything that's in the <b>docs</b> folder, with a small blurb about what each one is about.
+    <ul>
+      <li>A type of <b>General</b> deals with information that pertains to this folder, this repository, or other organisation-based content. </li>
+
+      <li>A type of <b>Developer</b> deals with developing this website, and/or contributing to the website.</li>
+
+      <li>A type of <b>API</b> deals with the website's API, and its documentation.</li>
+
+      <li>A type of <b>Content</b> deals with editing content of the website.</li>
+    </ul>
+  </p>
+  <table class="table" data-toggle="table">
+    <thead>
+      <tr>
+        <th data-field="name" data-sortable="true">File Name</th>
+        <th data-field="type" data-sortable="true">Doc Type</th>
+        <th>Doc Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for doc in site.docs %}{% unless doc.type == 'info' %}
+      <tr>
+        <td><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }} </a></td>
+        <td>{{ doc.type }}</td>
+        <td>{{ doc.description }}</td>
+      </tr>
+      {% endunless %}{% endfor %}
+    </tbody>
+  </table>
+</div>

@@ -5,15 +5,19 @@
       <div class="col-sm-6">
         <h4>{{ site.title }}</h4>
         <ul class="contact-list">
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-          <li><a href="mailto:{{ site.facebook }}"><span class="fa fa-facebook"></span> Ontario Model UN</a></li>
-          <li><a href="mailto:{{ site.twitter }}"><span class="fa fa-twitter"></span> @OntarioMUN</a></li>
-          <li><a href="mailto:{{ site.instagram }}"><span class="fa fa-instagram"></span> @ontariomodelun</a></li>
+          <li><a href="mailto:{{ site.email }}"><span class="fa fa-envelope"></span> {{ site.email }}</a></li>
+          <li><a href="{{ site.facebook }}"><span class="fa fa-facebook"></span> Ontario Model UN</a></li>
+          <li><a href="{{ site.twitter }}"><span class="fa fa-twitter"></span> @OntarioMUN</a></li>
+          <li><a href="{{ site.instagram }}"><span class="fa fa-instagram"></span> @ontariomodelun</a></li>
+          <li><a href="{{ site.github }}"><span class="fa fa-github"></span> malsf21/omun.ca</a></li>
         </ul>
       </div>
 
       <div class="col-sm-6">
         <p>{{ site.description }}</p>
+        <p>
+          Website designed by <a href="http://matthewwang.me">Matthew Wang</a>. Site and API documentation available <a href="{{site.docurl}}">here</a>.
+        </p>
       </div>
     </div>
   </div>

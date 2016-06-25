@@ -1,3 +1,9 @@
+---
+layout: doc
+title: Content
+type: Content
+description: A set of guides for all types of content on the website, except ones that are covered in their own article.
+---
 # Editing Content
 
 Most of the content on this website is displayed as plaintext in the file structure, which makes it very simple to edit, even without coding knowledge. Let's go over how to edit some of the more common pages on the OMUN website.
@@ -17,10 +23,10 @@ The About page is very simple to edit. Simply, visit the about.md file, and edit
 Unlike other pages, editing the FAQ page is slightly different (but still very simple). Head to the `_data/faq.yml` file. Inside, you should see a format similar to this:
 
 ```yml
-
 shortabbreviation:
   question: Question.
   answer: Answer.
+
 spiritanimal:
   question: What is your spirit animal?
   answer: The octopus. It's super cool!
@@ -28,8 +34,6 @@ spiritanimal:
 pokemon:
   question: What is your favourite Pokemon?
   answer: Pokemon? MetaGROSS!
-
-
 ```
 
 Simply append your question to the list, and it should appear.
@@ -40,24 +44,22 @@ Simply append your question to the list, and it should appear.
 
 ## Committee Information Pages
 
-Please visit the COMMITTEE.md file to see a full tutorial.
+Please visit the [COMMITTEE](committee.html) file to see a full tutorial.
 
 ## News Articles
 
-Please visit the ARTICLE.md file to see a full tutorial.
+Please visit the [ARTICLE](article.html) file to see a full tutorial.
 
 ## Social Media Accounts
 
 Unlike other content, editing the social media accounts (that the site links to) is slightly different (but still very simple). Head to the `_config.yml` file. Find the part of the file that looks like this:
 
 ```yml
-
 # Social Media Accounts
 facebook: "https://www.facebook.com/OntarioModelUnitedNations"
 twitter: "https://twitter.com/OntarioMUN"
 instagram: "https://www.instagram.com/ontariomodelun/"
-
-
+github: "https://github.com/malsf21/omun.ca"
 ```
 
 Simply, edit the account urls to the ones that you would like to display. The rest of the site will update automatically!

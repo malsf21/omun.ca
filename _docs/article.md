@@ -1,3 +1,9 @@
+---
+layout: doc
+title: Article
+type: Content
+description: A step-by-step walkthrough of how to write an OMUN News Article.
+---
 # Creating a News Article
 
 News Articles are an important part of the website: they provide a medium where the conference and its administration can update delegates on conference information, registration, and create a consumer-organisation relationship.
@@ -34,8 +40,8 @@ First things first, make a `.md` file (**NOT A `.txt` FILE**), with following fo
 In order for `Jekyll` to know to convert your markdown file into a website page, it needs to know a few things, to make the page look awesome, to put it in the right place, and so our API works.
 
 At the beginning of your markdown file, you need to have something that looks like this:
-```
 
+```yml
 ---
 layout: post
 title:  "Welcome to the OMUN Website!"
@@ -44,7 +50,6 @@ date:   2016-05-26 12:01:21 -0400
 author: Matthew Wang
 tags: site
 ---
-
 ```
 
 It's very important to follow these directions step by step, or the site will break. Ensure that you have the triple dashes (`---`) at the start and end of your header, and make sure that you follow the layout for each section. I've included a table below that outlines what each section means.

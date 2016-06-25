@@ -1,3 +1,9 @@
+---
+layout: doc
+title: Setup
+type: Developer
+description: A step-by-step walkthrough of how to setup this website on a local development machine.
+---
 # Setup
 
 Want to run your own copy of this jekyll site? No problem. You'll need a few things:
@@ -19,7 +25,7 @@ After Jekyll completes its setup, clone the git repository:
 git clone https://github.com/malsf21/omun.ca.git
 ```
 
-Then, cd into the repository: 
+Then, cd into the repository:
 ```
 cd omun.ca
 ```

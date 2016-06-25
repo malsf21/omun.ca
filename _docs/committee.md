@@ -1,3 +1,9 @@
+---
+layout: doc
+title: Committee
+type: Content
+description: A step-by-step walkthrough of how to make or edit an OMUN committee information page.
+---
 # Creating or Editing Committee Information Pages
 
 Committee information pages are an important part of the delegate experience, and are crucial to both the registration and the conference stages of any Model UN conference. Let's go over what each committee information page needs.
@@ -38,8 +44,8 @@ First things first, make a `.md` file (**NOT A `.txt` FILE**), with the **lowerc
 In order for `Jekyll` to know to convert your markdown file into a website page, it needs to know a few things, to make the page look awesome, to put it in the right place, and so our API works.
 
 At the beginning of your markdown file, you need to have something that looks like this:
-```
 
+```yml
 ---
 layout: committee
 title: United Nations Human Rights Council
@@ -50,7 +56,6 @@ size: "56"
 guide: UNHRC-2017.pdf
 shortbio: The United Nations Human Rights Council deals with Human Rights all over the world.
 ---
-
 ```
 
 It's very important to follow these directions step by step, or the site will break. Ensure that you have the triple dashes (`---`) at the start and end of your header, and make sure that you follow the layout for each section. I've included a table below that outlines what each section means.

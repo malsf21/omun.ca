@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+
+    {% include docs-header.html %}
+    <div class="container">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+    <script>
+    $("table").addClass("table table-hover");
+    </script>
+  </body>
+
+</html>
