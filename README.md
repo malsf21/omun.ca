@@ -1,6 +1,6 @@
 # Ontario Model United Nations Website
 
-![travis status](https://travis-ci.org/malsf21/omun.ca.svg?branch=master)
+[![Build Status](https://travis-ci.org/malsf21/omun.ca.svg?branch=master)](https://travis-ci.org/malsf21/omun.ca)
 
 Hey there, you've visited the repository of the Ontario Model United Nations website! Here you can see how all of our code works, and take a sneak peek of new features.
 
