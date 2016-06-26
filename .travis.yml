@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+- 2.1
+
+script: jekyll build
+
+branches:
+  only:
+  - master
+
+sudo: false
