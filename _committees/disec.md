@@ -10,4 +10,4 @@ shortbio: The Disarmament and International Security Committee deals with disarm
 
 The Disarmament and International Security Committee deals with disarmament, global challenges and threats to peace that affect the international community and seeks out solutions to the challenges in the international security regime.
 
-Information on position papers, topics, and sizes are coming soon!
+Information on position papers, topics, and committee sizes are coming soon!
