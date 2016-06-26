@@ -16,7 +16,7 @@ Want to run your own copy of this jekyll site? No problem. You'll need a few thi
 First things first, we need to install Jekyll. We assume that you have Git and Ruby installed. If you don't, please visit the links above to install them. We also assume you're using a [Unix-based system](https://en.wikipedia.org/wiki/Unix); if you aren't, follow jekyll's alternatives instruction page.
 
 Type in your command line:
-```ruby
+```
 gem install jekyll
 ```
 
