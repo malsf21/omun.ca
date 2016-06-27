@@ -2,7 +2,7 @@
 layout: post
 title:  "Incoming OMUN 2017 Secretariat/Directors"
 short: "Introducing-Secretariat"
-date:   2016-05-30 12:01:21 -0400
+date:   2016-06-27 12:00:00 -0400
 author: Matthew Wang
 tags: general
 ---

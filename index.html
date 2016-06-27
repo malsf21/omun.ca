@@ -8,15 +8,19 @@ layout: default
     $("#timeLeft").html(getTimeRemaining(deadLine));
   }, 1000);
 </script>
+
 <div class="container">
+  <div class="alert alert-success" role="alert">
+    <span class="fa fa-warning"></span> <strong>Hey there!</strong> Welcome to the OMUN II Website! We're still working on this website, including more committee descriptions, FAQs, and registration; you just get a sneak peek! You're free to browse in the meantime, just remember to check back more for more updates!
+  </div>
   <div class="jumbotron">
-  <h1 class="page-header">Ontario Model United Nations</h1>
-  <p class="lead">Ontario Model United Nations is a student-run Model United Nations simulation held at Upper Canada College. </p>
-  <p>
-  <b><span id="timeLeft">000 Days, 00 Hours, 00 Minutes, and 00 Seconds</span></b> until OMUN II!
-  </p>
-  <p><a class="btn btn-primary btn-lg" href="{{ "/about/" | prepend: site.baseurl }}" style="color:white;">Learn more</a></p>
-</div>
+    <h1 class="page-header">Ontario Model United Nations</h1>
+    <p class="lead">Ontario Model United Nations is a student-run Model United Nations simulation held at Upper Canada College. </p>
+    <p>
+    <b><span id="timeLeft">000 Days, 00 Hours, 00 Minutes, and 00 Seconds</span></b> until OMUN II!
+    </p>
+    <p><a class="btn btn-primary btn-lg" href="{{ "/about/" | prepend: site.baseurl }}" style="color:white;">Learn more</a></p>
+  </div>
 
   <div class="row">
     <div class="col-sm-6">
@@ -38,7 +42,7 @@ layout: default
         </div>
       </div>
       <div class="well">
-        <h4>Coming Soon: More Information</h4>
+        <h4>Coming Soon! More information for:</h4>
         <div class="row" style="text-align:center;">
           <div class="col-sm-3">
             <h2><span class="fa fa-user"></span></h2>

@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to the OMUN Website!"
 short: "Welcome-To-Website"
-date:   2016-05-26 12:01:21 -0400
+date:   2016-06-27 00:00:00 -0400
 author: Matthew Wang
 tags: site
 ---
