@@ -6,9 +6,9 @@ Hey there, you've visited the repository of the Ontario Model United Nations web
 
 The test and development version of this website, in `master`, is hosted at [my website](http://matthewwang.me/omun/). It'll have the latest working version of master.
 
-~~The official, `stable` version of the website is in the `stable` branch, and is hosted at [omun.ca](http://omun.ca/)~~ Currently no stable branch, since I'm reworking from scratch.
+The official, `stable` version of the website is in the `stable` branch, and is hosted at [omun.ca](http://omun.ca/)
 
-The "coming-soon" landing page is in the `coming-soon` branch, and is what is currently at [omun.ca](http://omun.ca/).
+The "coming-soon" landing page is in the `coming-soon` branch, and is what was at [omun.ca](http://omun.ca/) before production was finished.
 
 This website uses [Jekyll](https://jekyllrb.com), a static-site generator, [Bootstrap](https://getbootstrap.com), a CSS library, and [jQuery](http://jquery.com), a Javascript Library, among other small tools to make this website as awesome as it is!
 
