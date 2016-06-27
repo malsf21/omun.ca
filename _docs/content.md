@@ -58,7 +58,7 @@ Please visit the [ARTICLE](article.html) file to see a full tutorial.
 
 ## Social Media Accounts
 
-Unlike other content, editing the social media accounts (that the site links to) is slightly different (but still very simple). Head to the `_config.yml` file. Find the part of the file that looks like this:
+Unlike other content, editing the social media accounts (that the site links to) is slightly different (but still very simple). Head to the `_data/contact.yml` file. Find the part of the file that looks like this:
 
 ```yml
 # Social Media Accounts

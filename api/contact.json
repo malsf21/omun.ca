@@ -1,0 +1,15 @@
+---
+
+---
+
+{
+  "structure":{
+    "service-name" : "service-location"
+  },
+  "data":[{
+    {% for account in site.data.contact %}
+    "{{ account[0] }}" : "{{ account[1] }}",
+    {% endfor %}
+    "website" : "{{site.url}}{{site.baseurl}}"
+  }]
+}
