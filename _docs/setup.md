@@ -54,6 +54,6 @@ Configuration file: /Users/matthew.wang/github/omun.ca/_config.yml
 
 Visit what follows the "Server address:" line (which is normally [http://127.0.0.1:4000/omun/](http://127.0.0.1:4000/omun/), but that might change soon)!
 
-*Note: On `dev`/`master` branches, it will be `127.0.0.1:4000/omun/`, but on `stable` branches it will most likely be just `127.0.0.1:4000`. Double check just to be sure!
+*Note: On `dev`/`master` branches, it will be `127.0.0.1:4000/omun/`, but on `stable` branches it will most likely be just `127.0.0.1:4000`. Double check just to be sure!*
 
 And voila! Everything should work for you. If something isn't, please let me know on our [issues tracker](https://github.com/malsf21/omun.ca/issues).
