@@ -1,0 +1,16 @@
+---
+
+---
+
+{
+  "structure": {
+    "service" : "service-url-or-information"
+  },
+  "data": [{
+    "github" : {% if site.data.developer.github %}"{{site.data.developer.github}}"{% else %}"none"{% endif %},
+    "github-user" : {% if site.data.developer.github-user %}"{{site.data.developer.github-user}}"{% else %}"none"{% endif %},
+    "github-name" : {% if site.data.developer.github-name %}"{{site.data.developer.github-name}}"{% else %}"none"{% endif %},
+    "travis" : {% if site.data.developer.travis %}"{{site.data.developer.travis}}"{% else %}"none"{% endif %},
+    "website" : "{{site.url}}{{site.baseurl}}"
+  }]
+}
