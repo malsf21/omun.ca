@@ -24,23 +24,29 @@ Unlike other pages, editing the FAQ page is slightly different (but still very s
 
 ```yml
 shortabbreviation:
+  type: general
   question: Question.
   answer: Answer.
 
-spiritanimal:
-  question: What is your spirit animal?
-  answer: The octopus. It's super cool!
+omunwhen:
+  type: general
+  question: When is OMUN II?
+  answer: "OMUN II is held over two days from **April 22nd to April 23rd**."
 
-pokemon:
-  question: What is your favourite Pokemon?
-  answer: Pokemon? MetaGROSS!
+committeesizes:
+  type: committee
+  question: What are the sizes of committees at OMUN?
+  answer: "Each individual size will have a different committee size, which you can find on our committee page."
+
 ```
 
 Simply append your question to the list, and it should appear.
 
+The variable "type" will determine which category which the question appears in. If the type for your question does not exist, please message Matthew Wang and he'll set you up.
+
 *Note: the text in the shortabbreviation should have no spaces.*
 
-*Additional Note: The text in the question and answer is represented in plaintext, not markdown. You cannot add links, images, or videos.*
+*Additional Note: The text in the question and answer is represented in markdown. Please do not embed tables, images or videos.*
 
 ## Committee Information Pages
 

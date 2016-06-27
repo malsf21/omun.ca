@@ -4,7 +4,9 @@ title: Frequenty Asked Questions
 permalink: /faq/
 ---
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  {% for item in site.data.faq %}
+  Have a question? Check it out if it's here! If it isn't, feel free to contact us on social media, or <a href="mailto:omun@ucc.on.ca">email us</a>.
+  <h2>General</h2>
+  {% for item in site.data.faq %}{% if item[1].type == "general" %}
     <div class="panel panel-primary">
       <div class="panel-heading">
         <h3 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{item[0]}}">
@@ -13,9 +15,24 @@ permalink: /faq/
       </div>
        <div id="collapse{{item[0]}}" class="panel-collapse collapse" role="tabpanel">
         <div class="panel-body">
-          {{ item[1].answer }}
+          {{ item[1].answer | markdownify }}
         </div>
       </div>
     </div>
-  {% endfor %}
+  {% endif %}{% endfor %}
+  <h2>Committee</h2>
+  {% for item in site.data.faq %}{% if item[1].type == "committee" %}
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{item[0]}}">
+            {{ item[1].question }}
+          </a></h3>
+      </div>
+       <div id="collapse{{item[0]}}" class="panel-collapse collapse" role="tabpanel">
+        <div class="panel-body">
+          {{ item[1].answer | markdownify }}
+        </div>
+      </div>
+    </div>
+  {% endif %}{% endfor %}
 </div>

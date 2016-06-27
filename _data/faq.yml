@@ -1,7 +1,24 @@
-spiritanimal:
-  question: What is your spirit animal?
-  answer: The octopus. It's super cool!
+omunwhat:
+  type: general
+  question: What is OMUN?
+  answer: "Ontario Model United Nations is a student-run Model United Nations simulation held at Upper Canada College. You can find out more on our about page."
 
-pokemon:
-  question: What is your favourite Pokemon?
-  answer: Pokemon? MetaGROSS!
+omunwhen:
+  type: general
+  question: When is OMUN II?
+  answer: "OMUN II is held over two days from **April 22nd to April 23rd**."
+
+omunwho:
+  type: general
+  question: Who runs OMUN?
+  answer: "OMUN is an entirely student-run Model UN Simulation; you can find the secretariat, chairs, and other organisational staff at our team page."
+
+committeetypes:
+  type: committee
+  question: What are the different types of committees at OMUN?
+  answer: "OMUN features three different committee types: General Assemblies (GAs), Specialized Agencies (SAs), and Crisis Committees. General Assemblies are the largest type of committees, and are offical UN committees that feature every UN country. Specialized Agencies feature a subset of UN committees, or a smaller group of non-UN affiliated countries in a non-UN affiliated organisation. Crisis are a special type of committee: instead of passing resolutions, small groups of delegates deal with coming crisis using directives."
+
+committeesizes:
+  type: committee
+  question: What are the sizes of committees at OMUN?
+  answer: "Each individual size will have a different committee size, which you can find on our committee page."
