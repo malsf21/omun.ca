@@ -4,7 +4,7 @@
 
 Hey there, you've visited the repository of the Ontario Model United Nations website! Here you can see how all of our code works, and take a sneak peek of new features.
 
-The test and development version of this website, in `master`, is hosted at [my website](http://matthewwang.me/omun/). It'll have the latest working version of master.
+The test and development version of this website, in `master`, is hosted at [the test domain](http://test.omun.ca). It'll have the latest working version of master.
 
 The official, `stable` version of the website is in the `stable` branch, and is hosted at [omun.ca](http://omun.ca/)
 
