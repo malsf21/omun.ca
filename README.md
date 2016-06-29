@@ -14,8 +14,8 @@ This website uses [Jekyll](https://jekyllrb.com), a static-site generator, [Boot
 
 # Documentation
 
-Documentation of this website is [here](http://matthewwang.me/omun/docs/); alternatively, you can browse the `docs` folder (but it isn't a complete experience)!
+Documentation of this website is [here](http://omun.ca/docs/); alternatively, you can browse the `docs` folder (but it isn't a complete experience)!
 
 # Setup
 
-Visit [this link](http://matthewwang.me/omun/docs/setup.html) or browse the `_docs/setup.md` file to learn how to setup the OMUN website on a local machine.
+Visit [this link](http://omun.ca/docs/setup.html) or browse the `_docs/setup.md` file to learn how to setup the OMUN website on a local machine.
