@@ -18,7 +18,7 @@
       "author": "{{post.author}}",
       "date": "{{post.date}}",
       "short": "{{post.short}}",
-      "content": "{{ post.content | escape | strip_newlines}}",
+      "content": "{{ post.content | replace: 'href="/', 'href="http://omun.ca/' | xml_escape | strip_newlines}}",
       "tags": "{{post.tags}}",
       "excerpt": "{{post.excerpt | strip_html |  truncatewords: 40 }}",
       "permalink" : "{{site.url}}{{ post.url | prepend: site.baseurl }}"

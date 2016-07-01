@@ -8,6 +8,7 @@
     "size" : "Committee Delegate Size",
     "guide" : "Delegate Guide Location",
     "shortbio" : "Short description of committee.",
+    "content" : "Committee description, and the lead paragraph text on website.",
     "permalink" : "Website permalink of committee.",
     "image" : "Website permalink of committee picture."
   },
@@ -18,8 +19,9 @@
       "short": "{{committee.short}}",
       "type": "{{committee.type}}",
       "size": "{{committee.size}}",
-      {% if committee.guide %}"guide": "{{site.url}}{{site.baseurl}}/files/committees/{{committee.guide}}",{% endif %}
+      "guide":{% if committee.guide %}"{{site.url}}{{site.baseurl}}/files/committees/{{committee.guide}}"{% else %}"none"{% endif %},
       "shortbio": "{{committee.shortbio}}",
+      "content": "{{ committee.content | replace: 'href="/', 'href="http://omun.ca/' | xml_escape | strip_newlines}}",
       "permalink": "{{site.url}}{{site.baseurl}}{{committee.url}}",
       "image": "{{site.url}}{{site.baseurl}}/img/committees/{{committee.pic}}"
     },
@@ -29,7 +31,9 @@
       "short" : "About",
       "type" : "OMUN",
       "size" : "42",
+      "guide" : "none",
       "shortbio" : "In Model United Nations, committees represent groups of countries (or other entities) that have a common purpose, such as eradicating world hunger, preventing terrorism, or spurring economic growth. At OMUN, there are a diverse set of committees: split into General Assemblies, and Specialised Agencies. ",
+      "content" : "In Model United Nations, committees represent groups of countries (or other entities) that have a common purpose, such as eradicating world hunger, preventing terrorism, or spurring economic growth. At OMUN, there are a diverse set of committees: split into General Assemblies, and Specialised Agencies. ",
       "permalink" : "{{site.url}}{{site.baseurl}}/committees",
       "image" : "{{site.url}}{{site.baseurl}}/img/committees/un.png"
     }
