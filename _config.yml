@@ -7,6 +7,8 @@ docurl: "/docs"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 exclude: [vendor]
 
 # Collections

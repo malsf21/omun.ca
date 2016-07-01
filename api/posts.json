@@ -6,6 +6,7 @@
     "author" : "Post Author",
     "date" : "Post Date",
     "short": "Short Post Title",
+    "content" : "Post Content",
     "tags" : "Post Tags",
     "excerpt": "Post Excerpt",
     "permalink" : "Post Permalink"
@@ -17,6 +18,7 @@
       "author": "{{post.author}}",
       "date": "{{post.date}}",
       "short": "{{post.short}}",
+      "content": "{{ post.content | escape | strip_newlines}}",
       "tags": "{{post.tags}}",
       "excerpt": "{{post.excerpt | strip_html |  truncatewords: 40 }}",
       "permalink" : "{{site.url}}{{ post.url | prepend: site.baseurl }}"
@@ -27,6 +29,7 @@
     "author": "Matthew Wang",
     "date": "2016-05-26 12:01:21 -0400",
     "short": "Welcome-To-News",
+    "content": "Welcome to OMUN News! Here, we will be giving you updates on the conference information, registration, and tools.",
     "tags": "site",
     "excerpt": "Welcome to OMUN News! Here, we will be giving you updates on the conference information, registration, and tools.",
     "permalink" : "{{site.url}}{{site.baseurl}}/news"
