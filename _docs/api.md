@@ -15,11 +15,31 @@ All the JSON files have both a `structure` and `data` object. The `structure` ob
 
 ```json
 structure: {
-  "key 1" : "Key 1 value",
-  "key 2" : "Key 2 value"
+  "name" : "Name of the Committee",
+  ...
+},
+data: {
+  "name" : "United Nations Human Rights Council",
+  ...
 }
 ```
 
 `data` will follow the structure set inside `structure.`
 
+### Committee API
+
+The Committee API is an endpoint where developers can grab individual committee information for each committee in OMUN.
+
+You can find documentation on the Committee API [here](api-committee.html).
+
+### Contact API
+
+The Contact API is an endpoint where developers can grab the contact information for OMUN.
+
+You can find documentation on the Contact API [here](api-contact.html).
+
 ### More Documentation Coming Soon!
+
+## Uses of the OMUN API
+
+Currently, the API is being used in the development of the [omun app](https://github.com/malsf21/omun-app).
