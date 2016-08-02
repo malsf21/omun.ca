@@ -2,5 +2,6 @@
 layout: default
 title: Home
 ---
-
-Success!
+<div class="container">
+  Success!
+</div>
