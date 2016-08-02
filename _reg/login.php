@@ -1,6 +1,5 @@
 <?php
-  require("reg/common.php");
-
+  require("common.php");
   $submitted_email = '';
   $correction = 'none';
 
