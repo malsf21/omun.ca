@@ -49,6 +49,30 @@
 
       $_SESSION['user'] = $row;
 
+      $query = "
+        SELECT *
+        FROM info
+        WHERE
+          email = :email";
+
+      $query_params = array(
+        ':email' => $_POST['email']
+      );
+
+      try
+      {
+        $stmt = $db->prepare($query);
+        $result = $stmt->execute($query_params);
+      }
+      catch(PDOException $ex)
+      {
+        die("Failed to run query: " . $ex->getMessage());
+      }
+
+      $row = $stmt->fetch();
+
+      $_SESSION['info'] = $row;
+
       header("Location: home.php");
       die("Redirecting to: home.php");
     }
