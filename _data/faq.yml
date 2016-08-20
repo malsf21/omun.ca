@@ -13,6 +13,11 @@ omunwho:
   question: Who runs OMUN?
   answer: "OMUN is an entirely student-run Model UN Simulation; you can find the secretariat, chairs, and other organisational staff at our team page."
 
+omunacommodations:
+  type: general
+  question: Are there accomodations provided at OMUN?
+  answer: "OMUN will be partnering with a hotel to offer discounted accommodations in downtown Toronto. More information coming soon."
+
 committeetypes:
   type: committee
   question: What are the different types of committees at OMUN?
