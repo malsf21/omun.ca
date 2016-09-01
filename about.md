@@ -20,6 +20,4 @@ OMUN aims to bring forward unparalleled debate and unique solutions. Its delegat
 
 ### About OMUN I (2016)
 
-<img class="img-responsive img-thumbnail" src="{{site.baseurl}}/img/OMUNcover.png" alt="OMUN I Cover" style="max-width:30%;"/>
-
 OMUN I was a great success. The 250+ delegates attending from 20 schools around Ontario had an incredible time debating a wide array of issues. With committees ranging from the World Health Organization to NATO to the Medellin Cartel, OMUN I succeeded in both provoking great debate and inspiring incredible solutions. **Congratulations go to the Oakville Trafalgar School** for winning Best Large Delegation. Commendations are also in order for all of the delegates who attended, as their hard work and dedication paid off to create an amazing weekend. We can't wait to see you all at OMUN II!
