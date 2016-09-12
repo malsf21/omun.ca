@@ -19,5 +19,3 @@ collections:
   docs:
     output: true
     layout: doc
-  reg:
-    output: true
