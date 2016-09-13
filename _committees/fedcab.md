@@ -1,8 +1,8 @@
 ---
 layout: committee
-title: Canadian Federal Provincial Joint Cabinet
-short: FedProv
-pic: fedprov.png
+title: Canadian Federal Cabinet
+short: FedCab
+pic: fedcab.png
 type: Specialized Agency
 size: "Coming Soon"
 shortbio: Coming Soon.

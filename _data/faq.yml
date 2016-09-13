@@ -18,6 +18,11 @@ omunacommodations:
   question: Are there accomodations provided at OMUN?
   answer: "OMUN will be partnering with a hotel to offer discounted accommodations in downtown Toronto. More information coming soon."
 
+omunfee:
+  type: general
+  question: What is the fee structure for OMUN?
+  answer: "Early bird registration ends at October 31st, at $35 per delegate. Normal Registration ends on March 1st, at $45 per delegate. Late registration is $55, and closes a week before the start of the conference (April 15th)."
+
 committeetypes:
   type: committee
   question: What are the different types of committees at OMUN?
