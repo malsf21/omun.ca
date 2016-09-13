@@ -1,7 +1,7 @@
 ---
 layout: committee
-title: Disarmament and International Security Committee
-short: DISEC
+title: Disarmament and International Security Committee (2)
+short: DISEC(2)
 pic: disec.png
 type: General Assembly
 size: "Coming Soon"

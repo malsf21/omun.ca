@@ -1,7 +1,7 @@
 ---
 layout: committee
-title: United Nations Security Council
-short: UNSC
+title: United Nations Security Council Advanced
+short: UNSC(a)
 pic: unsc.jpg
 type: Specialized Agency
 size: "Coming Soon"
