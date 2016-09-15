@@ -1,6 +1,6 @@
 ---
 layout: committee
-title: United Nations Security Council Advanced
+title: United Nations Security Council (Advanced)
 short: UNSC(a)
 pic: unsc.jpg
 type: Specialized Agency

@@ -1,8 +1,8 @@
 ---
 layout: committee
-title: Richard Nixon's Presidential Cabinet, 1969
-short: Nixon
-pic: nixon.jpg
+title: Lyndon B. Johnson's Presidential Cabinet, 1963
+short: LBJ
+pic: lbj.jpg
 type: Crisis
 size: "Coming Soon"
 shortbio: Coming Soon!
