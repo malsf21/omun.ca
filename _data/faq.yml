@@ -32,3 +32,8 @@ committeesizes:
   type: committee
   question: What are the sizes of committees at OMUN?
   answer: "Each individual committee will have a different committee size, which you can find on our committee page."
+
+committeeassign:
+  type: committee
+  question: What delegations are in each committee?
+  answer: "You can find our country matrix [here](/files/country_matrix.pdf)."
