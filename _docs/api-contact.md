@@ -24,8 +24,6 @@ This is not a RESTful API.
 
     "instagram" : "https://www.instagram.com/ontariomodelun/",
 
-    "github" : "https://github.com/malsf21/omun.ca",
-
     "website" : "http://omun.ca"
   }
 ```
