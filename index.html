@@ -39,7 +39,7 @@ layout: default
     </div>
     <div class="col-sm-6">
       <div class="bulletin">
-        {% for post in site.posts %}
+        {% for post in site.posts limit: 1%}
           <div class="panel panel-info">
             <div class="panel-heading">
               <h3 class="panel-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
