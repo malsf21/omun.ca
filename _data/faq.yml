@@ -16,7 +16,7 @@ omunwho:
 omunacommodations:
   type: general
   question: Are there accomodations provided at OMUN?
-  answer: "OMUN will be partnering with a hotel to offer discounted accommodations in downtown Toronto. More information coming soon."
+  answer: "OMUN will be partnering with [Holiday Inn](http://www.hitorontoblooryorkville.ca/) on [280 Bloor Street](https://goo.gl/maps/n2vNeWSJcMU2) to provide accomodations at a discounted price. Pricing is set at $165.99 for two double beds from April 21st - April 23rd. Contact the [Holiday Inn](http://www.hitorontoblooryorkville.ca/) or OMUN staff for more information and assistance."
 
 omunfee:
   type: general
