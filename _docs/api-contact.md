@@ -14,7 +14,7 @@ This is not a RESTful API.
 `data` will look something like this:
 
 ```json
-"data":[{
+"data":{
 
     "email" : "omun@ucc.on.ca",
 

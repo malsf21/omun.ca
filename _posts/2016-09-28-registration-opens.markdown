@@ -7,4 +7,4 @@ author: The OMUN Team
 tags: site
 ---
 
-Hello everyone! Registration is now open for OMUN II 2016! The early registration deadline is October 31st. Please consult our [advisor guide]({{site.baseurl}}files/advisor_package.pdf) and website for more details, or send an email to omun@ucc.on.ca.
+Hello everyone! Registration is now open for OMUN II 2016! The early registration deadline is October 31st. Please consult our [advisor guide]({{site.baseurl}}/files/advisor_package.pdf) and website for more details, or send an email to omun@ucc.on.ca.
