@@ -21,15 +21,13 @@ permalink: /team/
 ## Directors
 
 * Adam Sayani, **Director of Delegate Services**
-* William Lloyd, **Director of Delegate Services**
 * Daniel Reid, **Director of Chairing**
 * Gaurav Dogra,  **Director of Policy**
 * Kohilan Paramaanantham,  **Director of Policy**
 * Sammy Fleisher,  **Director of of Crisis Simulation**
 * Jamie Oneschuk,  **Director of Crisis Simulation**
-* William Lloyd,  **Director of Information Technology**
 * Phillip Nicoletti,  **Director of Site Management**
-* Alex Czgledy,  **Director of Site Management**
+* Nicholas Czgledy,  **Director of Site Management**
 * Michael Kagan,  **Director of Procurement**
 * Konstantinos Tsatsos,  **Director of Procurement**
 * Joe Hill,  **Director of Personnel**
