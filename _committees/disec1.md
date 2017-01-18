@@ -4,7 +4,7 @@ title: Disarmament and International Security Committee (1)
 short: DISEC(1)
 pic: disec.png
 type: General Assembly
-size: "Coming Soon"
+size: 50
 shortbio: The Disarmament and International Security Committee deals with disarmament, global challenges and threats to peace that affect the international community and seeks out solutions to the challenges in the international security regime.
 ---
 

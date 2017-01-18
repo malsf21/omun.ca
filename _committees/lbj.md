@@ -4,7 +4,7 @@ title: Lyndon B. Johnson's Presidential Cabinet, 1963
 short: LBJ
 pic: lbj.jpg
 type: Crisis
-size: "Coming Soon"
+size: 17
 shortbio: Coming Soon!
 ---
 

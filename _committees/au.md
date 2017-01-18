@@ -4,7 +4,7 @@ title: African Union
 short: AU
 pic: au.png
 type: Specialized Agency
-size: "Coming Soon"
+size: 30
 shortbio: The African Union is committed to strengthening a people-centered Union through active communication of the programmes of the African Union, the branding of the Union and participation of Member States and other stakeholders in defining and implementing the African agenda.
 ---
 

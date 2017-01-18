@@ -4,7 +4,7 @@ title: International Consortium of Investigative Journalists
 short: ICIJ
 pic: icij.jpg
 type: Crisis
-size: "Coming Soon"
+size: 20
 shortbio: The International Consortium of Investigative Journalists is an international network which includes 165 investigative journalists in over 65 countries who work together on issues such as cross-border crime, corruption, and the accountability of power.
 ---
 

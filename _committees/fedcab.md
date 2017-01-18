@@ -4,7 +4,7 @@ title: Canadian Federal Cabinet
 short: FedCab
 pic: fedcab.png
 type: Specialized Agency
-size: "Coming Soon"
+size: 30
 shortbio: Coming Soon.
 ---
 
