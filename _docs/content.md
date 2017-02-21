@@ -37,7 +37,6 @@ committeesizes:
   type: committee
   question: What are the sizes of committees at OMUN?
   answer: "Each individual size will have a different committee size, which you can find on our committee page."
-
 ```
 
 Simply append your question to the list, and it should appear.
@@ -78,18 +77,18 @@ The content is written in plaintext and markdown. While tables and other content
 
 # Submitting Your Content
 
-Once you're finished with your content, you have two ways to submit it: a GitHub Pull Request, or a submission to Matthew Wang.
+Once you're finished with your content, you have two ways to submit it: a GitHub Pull Request, or a submission to the USG of Communications.
 
 ## GitHub Pull Request
 
-The GitHub Pull Request is my preferred way of submitting a file.
+The GitHub Pull Request is the preferred way of submitting a file.
 
 Visit the [GitHub repository](https://github.com/malsf21/omun.ca). Navigate to the correct directory, press the Upload Files button, and drag in your file. Write a short summary of your changes, and submit.
 
-Matthew Wang will then approve (or deny) your changes in about a day.
+The maintainer of the GitHub repo (the USG of communications) will then approve (or deny) your changes in about a day.
 
-## Submission to Matthew Wang
+### Submission to USG Communications
 
-Send an email to Matthew Wang including all of your files. Matthew Wang will receive your submission, edit if needed, and upload it to the site.
+Send an email to the USG Communications including all of your files. USG Communications will receive your submission, edit if needed, and upload it to the site.
 
 This process will take about two days.

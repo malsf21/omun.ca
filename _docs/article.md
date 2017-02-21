@@ -23,7 +23,6 @@ In addition, the website (and my the API) requires this set of information, whic
 * Article Abbreviation, **No Spaces**, (e.g. `Welcome-To-Website`)
 * Article Date (In UTC format, YYYY-MM-DD HH:MM:SS Time Zone, e.g. `2016-05-26 12:01:21 -0400`)
 * Article Author (e.g. `Matthew Wang`)
-* Article Tag (e.g. `site`)
 
 ## Creating a News Article
 
@@ -48,7 +47,6 @@ title:  "Welcome to the OMUN Website!"
 short: "Welcome-To-Website"
 date:   2016-05-26 12:01:21 -0400
 author: Matthew Wang
-tags: site
 ---
 ```
 
@@ -62,7 +60,6 @@ It's very important to follow these directions step by step, or the site will br
 | short | The abbreviated name of your article, **with no spaces** | `Welcome-To-Website` |
 | date | The date, **formatted in UTC format**: YYYY-MM-DD HH:MM:SS Time Zone | `2016-05-26 12:01:21 -0400` |
 | author | The author of the post. | `Matthew Wang` |
-| tags | The tag/category that your post fits under, `site`, `registration`, etc. **Lowercase** | `site` |
 
 *A note: Make sure that the date is formatted correctly. If it is formatted incorrectly, it will not appear on the site.*
 
@@ -76,18 +73,18 @@ If you want to add **bold**, *italics*, or other stylistic features to your arti
 
 ## Submitting
 
-Once you're finished with your News Article, you have two ways to submit it: a GitHub Pull Request, or a submission to Matthew Wang.
+Once you're finished with your News Article, you have two ways to submit it: a GitHub Pull Request, or a submission to the USG of Communications.
 
 ### GitHub Pull Request
 
-The GitHub Pull Request is my preferred way of submitting a file.
+The GitHub Pull Request is the preferred way of submitting a file.
 
 Visit the [GitHub repository](https://github.com/malsf21/omun.ca). Navigate to the `/_posts` directory, press the Upload Files button, and drag in your article.md file. Write a short summary of your changes, and submit.
 
-Matthew Wang will then approve (or deny) your changes in about a day.
+The maintainer of the GitHub repo (the USG of communications) will then approve (or deny) your changes in about a day.
 
-### Submission to Matthew Wang
+### Submission to USG Communications
 
-Send an email to Matthew Wang including your article.md file, your image, and optionally your background guide. Matthew Wang will receive your submission, edit if needed, and upload it to the site.
+Send an email to the USG Communications including your article.md file, and option images. The USG Communications will receive your submission, edit if needed, and upload it to the site.
 
- This process will take about two days.
+This process will take about two days.

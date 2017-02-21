@@ -113,20 +113,20 @@ Once you have your background guide, you can either place it in the project's  `
 
 ## Submitting
 
-Once you're finished with your committee information page, you have two ways to submit it: a GitHub Pull Request, or a submission to Matthew Wang.
+Once you're finished with your committee information page, you have two ways to submit it: a GitHub Pull Request, or a submission to the USG of Communications.
 
 ### GitHub Pull Request
 
-The GitHub Pull Request is my preferred way of submitting a file.
+The GitHub Pull Request is the preferred way of submitting a file.
 
 Visit the [GitHub repository](https://github.com/malsf21/omun.ca). Navigate to the `/_committees` directory, press the Upload Files button, and drag in your committee.md file. Write a short summary of your changes, and submit.
 
 Then, rinse and repeat for the committee image, and the committee background guide.
 
-Matthew Wang will then approve (or deny) your changes in about a day.
+The maintainer of the GitHub repo (the USG of communications) will then approve (or deny) your changes in about a day.
 
-### Submission to Matthew Wang
+### Submission to USG Communications
 
-Send an email to Matthew Wang including your committee.md file, your image, and optionally your background guide. Matthew Wang will receive your submission, edit if needed, and upload it to the site.
+Send an email to the USG Communications including your committee.md file, your image, and optionally your background guide. USG Communications will receive your submission, edit if needed, and upload it to the site.
 
- This process will take about two days.
+This process will take about two days.

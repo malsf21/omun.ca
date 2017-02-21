@@ -18,6 +18,16 @@ omunacommodations:
   question: Are there accomodations provided at OMUN?
   answer: "OMUN will be partnering with [Holiday Inn](http://www.hitorontoblooryorkville.ca/) on [280 Bloor Street](https://goo.gl/maps/n2vNeWSJcMU2) to provide accomodations at a discounted price. Pricing is set at $165.99 for two double beds from April 21st - April 23rd. Contact the [Holiday Inn](http://www.hitorontoblooryorkville.ca/) or OMUN staff for more information and assistance."
 
+omunadvpkg:
+  type: general
+  question: "I'm an advisor, and I'd like to know more about the registration process."
+  answer: "Our [advisor package](/files/advisor_package.pdf) contains information about registration and the conference. If you have any further questions, feel free to contact us."
+
+omunschedule:
+  type: general
+  question: "Is there a tentative schedule for OMUN?"
+  answer: "While we haven't fully confirmed our schedule, we have attached a temporary schedule in our [advisor package](/files/advisor_package.pdf)."
+
 omunfee:
   type: general
   question: What is the fee structure for OMUN?
@@ -41,4 +51,4 @@ committeeassign:
 committeepps:
   type: committee
   question: How do Position Papers work at OMUN?
-  answer: "OMUN will be making position papers mandatory this year for all delegates to receive committee awards. They will be marked, counting for 10 points out of 60 towards committee awards. Delegates should target their papers to be around 2 pages, double spaced. More detailed guidelines and research help will be posted in the Delegate Center in October. Position Papers will be due March 21st."
+  answer: "OMUN will be making position papers mandatory this year for all delegates to receive committee awards. They will be marked, counting for 10 points out of 60 towards committee awards. Delegates should target their papers to be around 2 pages, double spaced. Position Papers will be due March 21st."

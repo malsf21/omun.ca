@@ -1,16 +1,34 @@
 ---
 layout: default
 ---
-<script src="{{site.baseurl}}/js/countdown.js"></script>
 <script type="text/javascript">
-  var deadLine = "4/22/2017"; //Countdown date in MM/DD/YYYY format (no 0's required)
+  function getTimeRemaining(endtime){
+    var t = Date.parse(endtime) - Date.parse(new Date());
+    var seconds = Math.floor( (t/1000) % 60 );
+    var minutes = Math.floor( (t/1000/60) % 60 );
+    var hours = Math.floor( (t/(1000*60*60)) % 24 );
+    var days = Math.floor( t/(1000*60*60*24) );
+
+    if (t > 0){
+      return days + " Days, " + hours + " Hours, " + minutes + " Minutes, and " + seconds + " Seconds until OMUN II!";
+    }
+    else if (t < 0){
+      return "The Conference is in motion!"
+    }
+    else {
+      return "Oops!";
+    }
+  }
+  var deadline = "4/22/2017"; //Countdown date in MM/DD/YYYY format (no 0's required)
   window.setInterval(function(){
-    $("#timeLeft").html(getTimeRemaining(deadLine));
+    $("#timeLeft").html(getTimeRemaining(deadline));
   }, 1000);
 </script>
-<img class="img-rounded" src="{{site.baseurl}}/img/promo-1.png" style="margin-top:-25px; display:block;max-height:100%;max-width:auto;"/>
+<img class="full-cover" src="{{site.baseurl}}/img/promo-1.png"/>
 <div class="container">
-  <h2 class="text-center"><span id="timeLeft">000 Days, 00 Hours, 00 Minutes, and 00 Seconds</span> until OMUN II!</h2>
+  <div class="countdown">
+    <h2><span id="timeLeft">000 Days, 00 Hours, 00 Minutes, and 00 Seconds until OMUN II!</span></h2>
+  </div>
   <div class="row">
     <div class="col-sm-6">
       <div class="panel panel-primary">
@@ -26,6 +44,7 @@ layout: default
            <a class="btn btn-primary btn-xs" href="{{ "/committees/" | prepend: site.baseurl }}" style="color:white;" role="button">Committees</a>
            <a class="btn btn-primary btn-xs" href="{{ "/faq/" | prepend: site.baseurl }}" style="color:white;" role="button">FAQ</a>
            <a class="btn btn-primary btn-xs" href="{{ "/team/" | prepend: site.baseurl }}" style="color:white;" role="button">Team</a>
+           <a class="btn btn-primary btn-xs" href="{{ "/files/advisor_package.pdf" | prepend: site.baseurl }}" style="color:white;" role="button">Advisor Package</a>
          </div>
       </div>
       <div class="panel panel-primary">
@@ -49,7 +68,6 @@ layout: default
               </br>
               </br>
               {{ post.content }}
-              {% if post.tags %}<span class="label label-warning"><span class="fa fa-tags"></span> tags</span> <span class="label label-warning"><span class="fa fa-tag"></span> {{ post.tags }}</span>{% endif %}
             </div>
           </div>
         {% endfor %}
