@@ -1,14 +1,9 @@
 language: ruby
+cache: bundler
 rvm:
-- 2.1
+- 2.4.0
 
-install:
-  - gem install jekyll
 script:
-  - jekyll build
-
-branches:
-  only:
-  - master
+  - bundle exec rake test
 
 sudo: false

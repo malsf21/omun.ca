@@ -8,37 +8,42 @@ description: A step-by-step walkthrough of how to setup this website on a local 
 
 Want to run your own copy of this jekyll site? No problem. You'll need a few things:
 
-* [Ruby](https://www.ruby-lang.org/en/), to install [Jekyll](https://jekyllrb.com)
-* [Jekyll](https://jekyllrb.com), to build and run the website
+* [Ruby](https://www.ruby-lang.org/en/), to install [Bundler](https://bundler.io/) which installs our dependencies ([Jekyll](https://jekyllrb.com), [Rake](http://rake.rubyforge.org/), [html-proofer](https://github.com/gjtorikian/html-proofer))
 * [Git](https://git-scm.com/), to clone this repository
 * A Browser, to view the website of course!
 
-First things first, we need to install Jekyll. We assume that you have Git and Ruby installed. If you don't, please visit the links above to install them. We also assume you're using a [Unix-based system](https://en.wikipedia.org/wiki/Unix); if you aren't, follow jekyll's alternatives instruction page.
+First things first, we need to install bundler, which installs RubyGems dependencies in a cool way.
 
 Type in your command line:
-```
-gem install jekyll
+```bash
+$ gem install bundler
 ```
 
-After Jekyll completes its setup, clone the git repository:
-```
-git clone https://github.com/malsf21/omun.ca.git
+After Bundle is installed, clone the git repository:
+```bash
+$ git clone https://github.com/malsf21/omun.ca.git
 ```
 
 Then, cd into the repository:
-```
-cd omun.ca
+```bash
+$ cd omun.ca
 ```
 
-Inside the repository, all you'll need to do is "serve" the site. Type the following into your command line:
+After that, we'll run Bundler inside our root directory.
+
+```bash
+$ bundle
 ```
-jekyll serve
+
+Now, all you'll need to do is "serve" the site. Type the following into your command line:
+```bash
+$ bundle exec jekyll serve
 ```
 
 After that, you should get a response that looks something like this:
 
-```
-jekyll serve
+```bash
+$ jekyll serve
 Configuration file: /Users/matthew.wang/github/omun.ca/_config.yml
             Source: /Users/matthew.wang/github/omun.ca
        Destination: /Users/matthew.wang/github/omun.ca/_site
@@ -57,3 +62,5 @@ Visit what follows the "Server address:" line (which is normally [http://127.0.0
 *Note: On `dev`/`master` branches, it will be `127.0.0.1:4000/omun/`, but on `stable` branches it will most likely be just `127.0.0.1:4000`. Double check just to be sure!*
 
 And voila! Everything should work for you. If something isn't, please let me know on our [issues tracker](https://github.com/malsf21/omun.ca/issues).
+
+Addendum: we use rake and html-proofer in our testing process. Run `rake test` to check if your code compiles well, and if the HTML is standards-compliant.
