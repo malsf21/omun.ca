@@ -28,7 +28,7 @@ type: info
     <tbody>
       {% for doc in site.docs %}{% unless doc.type == 'info' %}
       <tr>
-        <td><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }} </a></td>
+        <td><a href="{{ doc.url | prepend: site.baseurl }}">{{ doc.title }}</a></td>
         <td>{{ doc.type }}</td>
         <td>{{ doc.description }}</td>
       </tr>

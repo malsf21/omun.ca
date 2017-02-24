@@ -52,14 +52,12 @@ Configuration file: /Users/matthew.wang/github/omun.ca/_config.yml
                     done in 0.605 seconds.
  Auto-regeneration: enabled for '/Users/matthew.wang/github/omun.ca'
 Configuration file: /Users/matthew.wang/github/omun.ca/_config.yml
-    Server address: http://127.0.0.1:4000/omun/
+    Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 
 ```
 
-Visit what follows the "Server address:" line (which is normally [http://127.0.0.1:4000/omun/](http://127.0.0.1:4000/omun/), but that might change soon)!
-
-*Note: On `dev`/`master` branches, it will be `127.0.0.1:4000/omun/`, but on `stable` branches it will most likely be just `127.0.0.1:4000`. Double check just to be sure!*
+Visit what follows the "Server address:" line (which is normally http://127.0.0.1:4000/).
 
 And voila! Everything should work for you. If something isn't, please let me know on our [issues tracker](https://github.com/malsf21/omun.ca/issues).
 

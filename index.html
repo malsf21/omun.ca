@@ -24,13 +24,13 @@ layout: default
     $("#timeLeft").html(getTimeRemaining(deadline));
   }, 1000);
 </script>
-<img class="full-cover" src="{{site.baseurl}}/img/promo-1.png"/>
+<img class="full-cover" src="{{site.baseurl}}/img/promo-1.png" alt="An image of the Upper Canada College Campus, the location where OMUN is held."/>
 <div class="container">
   <div class="countdown">
     <h2><span id="timeLeft">000 Days, 00 Hours, 00 Minutes, and 00 Seconds until OMUN II!</span></h2>
   </div>
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">What is OMUN?</h3>
@@ -52,11 +52,11 @@ layout: default
           <h3 class="panel-title">Registration is here!</h3>
         </div>
         <div class="panel-body">
-          <p class="lead">Visit <a href="{{site.baseurl}}/reg/">our reg center</a> to start registering for OMUN II!</p>
+          <p class="lead">Visit <a href="{{site.baseurl}}/reg/" data-proofer-ignore>our reg center</a> to start registering for OMUN II!</p>
         </div>
       </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-md-6">
       <div class="bulletin">
         {% for post in site.posts limit: 1%}
           <div class="panel panel-info">
@@ -72,7 +72,6 @@ layout: default
           </div>
         {% endfor %}
       </div>
-      <p class="rss-subscribe">subscribe <a href="{{ "/news/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
     </div>
   </div>
 </div>
