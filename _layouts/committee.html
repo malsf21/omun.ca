@@ -16,7 +16,7 @@
           {% if page.guide %}
           <a href="{{ site.baseurl }}/files/committees/{{page.guide}}" type="button" class="btn btn-primary btn-block" target="_blank">View Background Guide</a>
           {% else %}
-            <div style="text-align:center;">
+            <div class="text-center">
               <h5><span class="label label-primary">Background Guide Coming Soon!</label></h5>
             </div>
           {% endif %}
@@ -24,6 +24,9 @@
         <div class="col-sm-9">
           <div class="lead" id="content">
             {{ content }}
+            <p>
+              Check out the <a href="{{site.baseurl}}/delegate-center/">Delegate Center</a> for information on position papers, research guidelines, and general committee tips.
+            </p>
           </div>
         </div>
       </div>
