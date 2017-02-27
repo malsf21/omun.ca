@@ -4,6 +4,7 @@ title: United Nations Security Council (Advanced)
 short: UNSC(a)
 pic: unsc.jpg
 type: Specialized Agency
+guide: UNSCA-BG-OMUN-2017.pdf
 size: 20
 shortbio: The United Nations Security Council has primary responsibility for the maintenance of international peace and security.
 ---
