@@ -10,11 +10,10 @@ permalink: /team/
 * Matthew Jagdeo, **Director General**
 * Charlie Mortimer, **Director General**
 * Aryan Paliwal, **Under-Secretary General of Administration**
-* Conrad Mahoney, **Under-Secretary General of External Affairs**
+* Conrad Mahony, **Under-Secretary General of External Affairs**
 * Brent Leung, **Under-Secretary General of Committees**
 * Campbell MacKinnon, **Under-Secretary General of Committees**
 * Tom Reeve, **Under-Secretary General of Specialized Agencies**
-* Miles Hoaken, **Under-Secretary General of Specialized Agencies**
 * Matthew Wang, **Under-Secretary General of Communications**
 * Scotty Andrade, **Under-Secretary General of Operations**
 
