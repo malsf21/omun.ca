@@ -21,7 +21,7 @@ omunacommodations:
 omunadvpkg:
   type: general
   question: "I'm an advisor, and I'd like to know more about the registration process."
-  answer: "Our [advisor package](/files/advisor_package.pdf) contains information about registration and the conference. If you have any further questions, feel free to contact us."
+  answer: "Note: registration is closed. Our [advisor package](/files/advisor_package.pdf) contains information about registration and the conference. If you have any further questions, feel free to contact us."
 
 omunschedule:
   type: general
@@ -31,7 +31,7 @@ omunschedule:
 omunfee:
   type: general
   question: What is the fee structure for OMUN?
-  answer: "Early bird registration ends at October 31st, at $35 per delegate. Normal Registration ends on March 1st, at $45 per delegate. Late registration is $55, and closes a week before the start of the conference (April 15th)."
+  answer: "Note: registration is closed. Early bird registration ends at October 31st, at $35 per delegate. Normal Registration ends on March 1st, at $45 per delegate."
 
 committeetypes:
   type: committee
