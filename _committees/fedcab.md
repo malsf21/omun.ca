@@ -3,6 +3,7 @@ layout: committee
 title: Canadian Federal Cabinet
 short: FedCab
 pic: fedcab.png
+guide: FEDCAB-BG-OMUN-2017.pdf
 type: Specialized Agency
 size: 30
 shortbio: Coming Soon.
