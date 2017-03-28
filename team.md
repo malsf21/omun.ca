@@ -31,3 +31,4 @@ permalink: /team/
 * Konstantinos Tsatsos, **Director of Procurement**
 * Joe Hill, **Director of Personnel**
 * Andrew Speirs, **Director of Personnel**
+* Chris Cusinato, **Director of IT**
