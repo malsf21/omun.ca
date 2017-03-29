@@ -33,6 +33,11 @@ omunfee:
   question: What is the fee structure for OMUN?
   answer: "Note: registration is closed. Early bird registration ends at October 31st, at $35 per delegate. Normal Registration ends on March 1st, at $45 per delegate."
 
+omundress:
+  type: general
+  question: What is the dress code for OMUN?
+  answer: "OMUN would prefer if delegates came in Western business attire. OMUN specifically bans clothing with offensive remarks, or content that is harms or targets other delegates."
+
 committeetypes:
   type: committee
   question: What are the different types of committees at OMUN?
