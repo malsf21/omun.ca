@@ -13,3 +13,6 @@
   max-height:100%;
   max-width:auto;
 }
+.btn-force-white{
+  color:white !important;
+}

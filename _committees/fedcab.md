@@ -4,6 +4,7 @@ title: Canadian Federal Cabinet
 short: FedCab
 pic: fedcab.png
 guide: FEDCAB-BG-OMUN-2017.pdf
+email: "fedcab@omun.ca"
 type: Specialized Agency
 size: 30
 shortbio: Coming Soon.

@@ -4,6 +4,7 @@ title: United Nations Security Council (Beginner)
 short: UNSC(b)
 pic: unsc.jpg
 guide: UNSCB-BG-OMUN-2017.pdf
+email: "unscb@omun.ca"
 type: Specialized Agency
 size: 20
 shortbio: The United Nations Security Council has primary responsibility for the maintenance of international peace and security.

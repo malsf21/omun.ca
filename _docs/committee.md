@@ -54,6 +54,7 @@ pic: unhrc.png
 type: Specialized Agency
 size: "56"
 guide: UNHRC-2017.pdf
+email: "unhrc@omun.ca"
 shortbio: The United Nations Human Rights Council deals with Human Rights all over the world.
 ---
 ```
@@ -70,6 +71,7 @@ It's very important to follow these directions step by step, or the site will br
 | type | The type of committee that your committee fits under. There are three options: `General Assembly`, `Specialized Agency`, or `Crisis` | `Specialized Agency` |
 | size | The amount of delegates in your committee. This can be a rough estimate, and can be revised later. | `56` |
 | guide | The name of the background guide file of your committee, when placed in `files/committees/`. **Case matters**. *If one is not available yet, omit this section*. | `UNHRC-2017.pdf` |
+| email | The email address for the committee. **Make sure this is in quotes!** *If one is not available yet, omit this section*. | `"unhrc@omun.ca"` |
 | shortbio | A short, one sentence description of your committee. | The United Nations Human Rights Council deals with Human Rights all over the world. |
 
 This step is as simple as filling out information in a form. For the `pic` and `guide` sections, we can revisit them once we complete step three.

@@ -4,6 +4,7 @@ title: Lyndon B. Johnson's Presidential Cabinet, 1963
 short: LBJ
 pic: lbj.jpg
 guide: LBJ-BG-OMUN-2017.pdf
+email: "lbj@omun.ca"
 type: Crisis
 size: 17
 shortbio: "The task of Kennedy’s successor, former Vice President Lyndon Baines Johnson, is not an easy one. He must carry on President Kennedy’s legacy while navigating some of the most turbulent times in American history."

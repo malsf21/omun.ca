@@ -14,11 +14,20 @@
           <img class="img-responsive" src="{{ site.baseurl }}/img/committees/{{ page.pic }}" alt="Committee Picture">
           </br>
           {% if page.guide %}
-          <a href="{{ site.baseurl }}/files/committees/{{page.guide}}" type="button" class="btn btn-primary btn-block" target="_blank">View Background Guide</a>
+          <a href="{{ site.baseurl }}/files/committees/{{page.guide}}" type="button" class="btn btn-primary btn-block btn-force-white" target="_blank">View Background Guide</a>
           {% else %}
             <div class="text-center">
-              <h5><span class="label label-primary">Background Guide Coming Soon!</label></h5>
+              <span class="label label-primary">Background Guide Coming Soon!</label>
             </div>
+          {% endif %}
+          {% if page.email %}
+            <hr />
+            <p class="lead">
+              Committee Email: <a href="mailto:{{page.email}}">{{page.email}}</a>
+            </p>
+            <p>
+              As a reminder, check the <a href="{{site.baseurl}}/delegate-center">delegate center</a> to ensure that your position paper meets our submission guidelines!
+            </p>
           {% endif %}
         </div>
         <div class="col-sm-9">
