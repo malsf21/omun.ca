@@ -16,3 +16,9 @@
 .btn-force-white{
   color:white !important;
 }
+.list-schedule{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 2em;
+}
