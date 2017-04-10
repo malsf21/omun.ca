@@ -14,4 +14,6 @@ shortbio: The United Nations Security Council has primary responsibility for the
 
 The United Nations Security Council has primary responsibility for the maintenance of international peace and security.
 
-Information on position papers, topics, and committee sizes are coming soon!
+### Note from the Co-Chair
+
+Hi, I'm Charlie Mortimer and I'm UNSCB's Co-Chair alongside Tom Reeve. Model UN has become a passion of mine while in high school and I have committed myself to it, being one of the co-presidents of the UCC Model UN team. The topics we will be tackling in session, both ISIL and the East China Sea Dispute, carry with them many perspectives and levels of complexity. It is my hope that we can, as a committee, work with and learn from each other over the course of the conference. Keep up the research and position paper writing, and I look forward to seeing you at OMUN II!

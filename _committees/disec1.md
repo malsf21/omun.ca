@@ -14,4 +14,6 @@ shortbio: The Disarmament and International Security Committee deals with disarm
 
 The Disarmament and International Security Committee deals with disarmament, global challenges and threats to peace that affect the international community and seeks out solutions to the challenges in the international security regime.
 
-Information on position papers, topics, and committee sizes are coming soon!
+### Note from the Chair
+
+Hello delegates, my name is Conrad Mahony and I am the head chair of DISEC 1 this year. This is my second OMUN as a chair, though I’ve been participating in political simulations since I was in grade 8 as a delegate at UCC’s Ontario Model Parliament. I’m looking forward to meeting you all soon and am equally excited to hear your unique policies and solutions to the two undoubtedly pressing issues you will face in committee. As a committee, we will be discussing Small Arms Trade in the Middle East and Nuclear Non-Proliferation and Disarmament. Good luck and happy researching!

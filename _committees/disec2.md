@@ -14,4 +14,8 @@ shortbio: The Disarmament and International Security Committee deals with disarm
 
 The Disarmament and International Security Committee deals with disarmament, global challenges and threats to peace that affect the international community and seeks out solutions to the challenges in the international security regime.
 
-Information on position papers, topics, and committee sizes are coming soon!
+### Note from the Chair
+
+Hi delegates!
+
+My name is Brent, and I am super excited to be chairing the second DISEC committee at OMUN this year. I’m a Grade 12 student at UCC currently, and I’ve been doing Model UN for the past three years, during which I’ve attended numerous MUN conferences all across Canada and the US. The First Committee on Disarmament and International Security is an extremely important part of the UN that has tackled issues like terrorism, chemical weapons, and even outer space security. At OMUN this year, you will be required to write resolutions that address two of the most complex areas currently plaguing the UN: small arms trade in the Middle East and nuclear non-proliferation. I can’t wait to see what solutions you guys have come up with!
