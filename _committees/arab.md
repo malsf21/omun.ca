@@ -14,4 +14,4 @@ The Arab League's main goal is to "draw closer the relations between member Stat
 
 ## Note from the Vice-Chair
 
-Hello delegates! My name is Evan Enns and I am your Vice-Chair for the Arab League committee at OMUN. I have been doing Model United Nations for 2 years nowm and have gained amazing experience attending conferences. Our committee’s topics include terrorism and protecting minorities. These are complex issues that require collaboration between all Arab League member states. I am looking forward to constructive debate and hopefully we can resolve these issues as a committee. Good luck!
+Hello delegates! My name is Evan Enns and I am your Vice-Chair for the Arab League committee at OMUN. I have been doing Model United Nations for 2 years now and have gained amazing experience attending conferences. Our committee’s topics include terrorism and protecting minorities. These are complex issues that require collaboration between all Arab League member states. I am looking forward to constructive debate and hopefully we can resolve these issues as a committee. Good luck!
