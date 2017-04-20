@@ -8,7 +8,7 @@ description: A step-by-step walkthrough of how to setup this website on a local 
 
 Want to run your own copy of this jekyll site? No problem. You'll need a few things:
 
-* [Ruby](https://www.ruby-lang.org/en/), to install [Bundler](https://bundler.io/) which installs our dependencies ([Jekyll](https://jekyllrb.com), [Rake](http://rake.rubyforge.org/), [html-proofer](https://github.com/gjtorikian/html-proofer))
+* [Ruby](https://www.ruby-lang.org/en/), to install [Bundler](https://bundler.io/) which installs our dependencies ([Jekyll](https://jekyllrb.com), [Rake](https://ruby.github.io/rake/), [html-proofer](https://github.com/gjtorikian/html-proofer))
 * [Git](https://git-scm.com/), to clone this repository
 * A Browser, to view the website of course!
 
