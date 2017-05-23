@@ -2,7 +2,7 @@
 
 Hey there, you've visited the repository of the Ontario Model United Nations website! Here you can see how all of our code works, and take a sneak peek of new features.
 
-The "comming-soon" landing page is in the `coming-soon` branch, and is what is currently at [omun.ca](http://omun.ca/).
+The "coming-soon" landing page is in the `coming-soon` branch, and is what is currently at [omun.ca](http://omun.ca/).
 
 The official OMUN III website is in the `master` branch; that being said, it's not live. 
 
