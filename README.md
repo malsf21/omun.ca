@@ -6,11 +6,11 @@ Hey there, you've visited the repository of the Ontario Model United Nations web
 
 # Branches and Versioning
 
-`master` is the latest stable development release of the website. The latest working version is held at [the test domain](http://test.omun.ca). In addition, hotfixes that are pushed to `master` are also hosted at the offical domain, [omun.ca](http://omun.ca/).
+`master` is the latest stable development release of the website. Normally, `master` is live on the the offical domain, [omun.ca](http://omun.ca/), though right now it's being replaced by the `coming-soon` landing page.
 
 `stable` is the most stable release of the website. It typically will be mirrored at the offical domain, [omun.ca](http://omun.ca/). Developers looking to make their own websites off of this project should clone a stable release.
 
-`coming-soon` is a landing page designed for OMUN when the offical site was not yet live. While it is no longer live on any domain, you can re-use it as you wish.
+`coming-soon` is a landing page that's currently up at [omun.ca](https://omun.ca). When the conference gets closer, we switch to `stable`.
 
 # Software
 
