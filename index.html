@@ -10,7 +10,7 @@ layout: default
     var days = Math.floor( t/(1000*60*60*24) );
 
     if (t > 0){
-      return days + " Days, " + hours + " Hours, " + minutes + " Minutes, and " + seconds + " Seconds until OMUN II!";
+      return days + " Days, " + hours + " Hours, " + minutes + " Minutes, and " + seconds + " Seconds until OMUN III!";
     }
     else if (t < 0){
       return "The Conference is in motion!"
@@ -19,7 +19,7 @@ layout: default
       return "Oops!";
     }
   }
-  var deadline = "4/22/2017"; //Countdown date in MM/DD/YYYY format (no 0's required)
+  var deadline = "4/8/2018"; //Countdown date in MM/DD/YYYY format (no 0's required)
   window.setInterval(function(){
     $("#timeLeft").html(getTimeRemaining(deadline));
   }, 1000);
@@ -27,7 +27,7 @@ layout: default
 <img class="full-cover" src="{{site.baseurl}}/img/promo-1.png" alt="An image of the Upper Canada College Campus, the location where OMUN is held."/>
 <div class="container">
   <div class="countdown">
-    <h2><span id="timeLeft">000 Days, 00 Hours, 00 Minutes, and 00 Seconds until OMUN II!</span></h2>
+    <h2><span id="timeLeft">000 Days, 00 Hours, 00 Minutes, and 00 Seconds until OMUN III!</span></h2>
   </div>
   <div class="row">
     <div class="col-md-6">
@@ -43,18 +43,20 @@ layout: default
            <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/news/" | prepend: site.baseurl }}" style="color:white;" role="button">News</a>
            <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/committees/" | prepend: site.baseurl }}" style="color:white;" role="button">Committees</a>
            <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/faq/" | prepend: site.baseurl }}" style="color:white;" role="button">FAQ</a>
+           <!--
            <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/files/schedule.pdf" | prepend: site.baseurl }}" style="color:white;" role="button">Schedule</a>
+          -->
            <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/team/" | prepend: site.baseurl }}" style="color:white;" role="button">Team</a>
            <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/delegate-center/" | prepend: site.baseurl }}" style="color:white;" role="button">Delegate Center</a>
          </div>
       </div>
       <div class="panel panel-primary">
         <div class="panel-heading">
-          <h3 class="panel-title">Background Guides are up!</h3>
+          <h3 class="panel-title">Registration is open!</h3>
         </div>
         <div class="panel-body">
           <p class="lead">
-            Visit our <a href="{{site.baseurl}}/delegate-center/">Delegate Center</a> to get started on position papers!
+            Visit our <a href="{{site.regurl}}">Registration Page</a> to get started!
           </p>
         </div>
       </div>

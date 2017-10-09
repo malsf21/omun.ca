@@ -16,13 +16,12 @@
         <li><a href="{{ "/news/" | prepend: site.baseurl }}">News</a></li>
         <li><a href="{{ "/committees/" | prepend: site.baseurl }}">Committees</a></li>
         <li><a href="{{ "/faq/" | prepend: site.baseurl }}">FAQ</a></li>
-        <li><a href="{{ "/schedule/" | prepend: site.baseurl }}">Schedule</a></li>
         <li><a href="{{ "/team/" | prepend: site.baseurl }}">Team</a></li>
         <li><a href="{{ "/delegate-center/" | prepend: site.baseurl }}">Delegate Center</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <p class="navbar-text lead"><a href="{{ site.data.contact.facebook }}" style="color:white;"><span class="fa fa-facebook"></span></a> <a href="{{ site.data.contact.twitter }}" style="color:white;"><span class="fa fa-twitter"></span></a> <a href="{{ site.data.contact.instagram }}" style="color:white;"><span class="fa fa-instagram"></span></a></p>
-        <li><form action="{{ "/reg/" | prepend: site.baseurl }}" type="POST" data-proofer-ignore><button type="submit" class="btn btn-default navbar-btn">Register</button></form></li>
+        <li><form action="{{site.regurl}}" type="POST" data-proofer-ignore><button type="submit" class="btn btn-default navbar-btn">Register</button></form></li>
       </ul>
     </div>
   </div>
