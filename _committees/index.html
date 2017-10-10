@@ -34,8 +34,8 @@ type: info
       {% for committee in site.committees %}{% unless committee.type == 'info' %}
       <tr>
         <td><a href="{{ committee.url | prepend: site.baseurl }}">{{ committee.title }} </a></td>
-        <td>{{ committee.type }}</td>
-        <td>{{ committee.size }}</td>
+        <td>{{ committee.type }} {% if committee.double %}(Double Delegation){% endif %}</td>
+        <td>{{ committee.size }} {% if committee.double %}Teams{% else %}Delegates{% endif %}</td>
         <td>{{ committee.shortbio }}</td>
       </tr>
       {% endunless %}{% endfor %}

@@ -20,11 +20,18 @@
               <span class="label label-primary">Background Guide Coming Soon!</label>
             </div>
           {% endif %}
+          <hr />
+          <p>Committee Size: {{page.size}} {% if page.double %}Teams{% else %}Delegates{% endif %}</p>
+          {% if page.double %}
+            <p>This committee is a double delegation: each delegation consists of two delegates, who both represent their delegation.</p>
+          {% endif %}
           {% if page.email %}
             <hr />
+            {% comment %}
             <p class="lead">
               Committee Email: <a href="mailto:{{page.email}}">{{page.email}}</a>
             </p>
+            {% endcomment %}
             <p>
               As a reminder, check the <a href="{{site.baseurl}}/delegate-center">delegate center</a> to ensure that your position paper meets our submission guidelines!
             </p>
@@ -32,7 +39,11 @@
         </div>
         <div class="col-sm-9">
           <div class="lead" id="content">
-            {{ content }}
+            <p>{{ page.shortbio }}</p>
+            <p>Information on position papers, topics, and committee sizes are coming soon!</p>
+            {% comment %}
+              {{ content }}
+            {% endcomment %}
             <p>
               Check out the <a href="{{site.baseurl}}/delegate-center/">Delegate Center</a> for information on position papers, research guidelines, and general committee tips.
             </p>
