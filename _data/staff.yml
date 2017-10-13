@@ -1,0 +1,57 @@
+sg1:
+  role: "Secretary General"
+  name: "Conrad Mahony"
+sg2:
+  role: "Secretary General"
+  name: "Aryan Paliwal"
+dg1:
+  role: "Director General"
+  name: "David Niddam-Dent"
+dg2:
+  role: "Director General"
+  name: "Adam Rothman"
+usgop1:
+  role: "USG Operations"
+  name: "Joe Hill"
+usgop2:
+  role: "USG Operations"
+  name: "Michael Kagan"
+usgexternal:
+  role: "USG External Affairs"
+  name: "Ty Greenberg"
+usgadmin:
+  role: "USG Administration"
+  name: "Charlie Hughes"
+usgcomms:
+  role: "USG Communications"
+  name: "Matthew Wang"
+usgcommittee1:
+  role: "USG Committees"
+  name: "Sammy Fleisher"
+usgcommittee2:
+  role: "USG Committees"
+  name: "Adam Sayani"
+usgspecialized1:
+  role: "USG Specialized Agencies"
+  name: "Cooper Mendelson-Grasse"
+usgspecialized2:
+  role: "USG Specialized Agencies"
+  name: "Jamie Oneschuk"
+dusgadmin:
+  role: "Deputy USG Administration"
+  name: "Campbell MacKinnon"
+dusgop1:
+  role: "Deputy USG Operations"
+  name: "Oscar Wang"
+dusgop2:
+  role: "Deputy USG Operations"
+  name: "Kohilan Paramaanantham"
+dusgcomms:
+  role: "Deputy USG Communications"
+  name: "Shaan Hooey"
+dusgcommittee:
+  role: "Deputy USG Committees"
+  name: "Arjun Kapur"
+dusgspecialized:
+  role: "Deputy USG Specialized Agencies"
+  name: "Evan Enns"

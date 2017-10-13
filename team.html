@@ -1,0 +1,17 @@
+---
+layout: page
+title: Team
+permalink: /team/
+---
+{% for item in site.data.staff %}
+{% cycle 'group1': '<div class="row">', ''%}
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">{{ item[1].name }}</div>
+      <div class="panel-body">
+        {{item[1].role}}
+      </div>
+    </div>
+  </div>
+{% cycle 'group2': '', '</div>' %}
+{% endfor %}
