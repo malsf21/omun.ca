@@ -51,7 +51,7 @@ committeesizes:
 committeeassign:
   type: committee
   question: What delegations are in each committee?
-  answer: "You can find our country matrix [here](/files/country_matrix.pdf)."
+  answer: "You can find our country matrix [here](/files/delegate_matrix.pdf)."
 
 committeepps:
   type: committee
