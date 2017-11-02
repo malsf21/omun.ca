@@ -5,18 +5,18 @@ omunwhat:
 
 omunwhen:
   type: general
-  question: When is OMUN II?
-  answer: "OMUN II is held over two days from **April 22nd to April 23rd**."
+  question: When is OMUN III?
+  answer: "OMUN III is held over two days from **April 7th and 8th**."
 
 omunwho:
   type: general
   question: Who runs OMUN?
   answer: "OMUN is an entirely student-run Model UN Simulation; you can find the secretariat, chairs, and other organisational staff at our team page."
-
-omunacommodations:
-  type: general
-  question: Are there accomodations provided at OMUN?
-  answer: "OMUN will be partnering with [Holiday Inn](http://www.hitorontoblooryorkville.ca/) on [280 Bloor Street](https://goo.gl/maps/n2vNeWSJcMU2) to provide accomodations at a discounted price. Pricing is set at $165.99 for two double beds from April 21st - April 23rd. Contact the [Holiday Inn](http://www.hitorontoblooryorkville.ca/) or OMUN staff for more information and assistance."
+#
+# omunacommodations:
+#   type: general
+#   question: Are there accomodations provided at OMUN?
+#   answer: "OMUN will be partnering with [Holiday Inn](http://www.hitorontoblooryorkville.ca/) on [280 Bloor Street](https://goo.gl/maps/n2vNeWSJcMU2) to provide accomodations at a discounted price. Pricing is set at $165.99 for two double beds from April 21st - April 23rd. Contact the [Holiday Inn](http://www.hitorontoblooryorkville.ca/) or OMUN staff for more information and assistance."
 
 omunadvpkg:
   type: general
@@ -51,7 +51,7 @@ committeesizes:
 committeeassign:
   type: committee
   question: What delegations are in each committee?
-  answer: "You can find our country matrix [here](/files/delegate_matrix.pdf)."
+  answer: "You can find our delegate matrix [here](/files/delegate_matrix.pdf)."
 
 committeepps:
   type: committee
