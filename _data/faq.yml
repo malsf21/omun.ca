@@ -21,7 +21,7 @@ omunwho:
 omunadvpkg:
   type: general
   question: "I'm an advisor, and I'd like to know more about the registration process."
-  answer: "Note: registration is closed. Our [advisor package](/files/advisor_package.pdf) contains information about registration and the conference. If you have any further questions, feel free to contact us."
+  answer: "Our [advisor package](/files/advisor_package.pdf) contains information about registration and the conference. If you have any further questions, feel free to contact us."
 
 omunschedule:
   type: general
