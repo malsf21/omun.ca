@@ -4,7 +4,7 @@ title: President Wilson's Cabinet
 short: WILSON
 pic: wilson.jpg
 type: Specialized Agency
-size: 50
+size: 25
 email: "wilson@omun.ca"
-shortbio: In President Woodrow Wilson's Cabinet, delegates will deal with an impending World War, economic crisis, and social turmoil.
+shortbio: Wilson's trusted Cabinet will help guide the President on issues such as impending World War, expanding the American sphere of influence, and dealing with social turmoil on the homefront.
 ---
