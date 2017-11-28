@@ -1,10 +1,10 @@
 ---
 layout: committee
-title: United States Senate
-short: USS
-pic: uss.png
+title: President Wilson's Cabinet
+short: WILSON
+pic: wilson.jpg
 type: Specialized Agency
 size: 50
-email: "uss@omun.ca"
-shortbio: The United States Senate is the upper chamber of the United States Congress which is responsible for American legislature
+email: "wilson@omun.ca"
+shortbio: In President Woodrow Wilson's Cabinet, delegates will deal with an impending World War, economic crisis, and social turmoil.
 ---
