@@ -31,7 +31,7 @@ omunschedule:
 omunfee:
   type: general
   question: What is the fee structure for OMUN?
-  answer: "Note: registration is closed. Early bird registration ends at October 31st, at $35 per delegate. Normal Registration ends on March 1st, at $45 per delegate."
+  answer: "Note: registration is closed. Early bird registration ends at November 31st, at $35 per delegate. Normal Registration ends on February 15th, at $45 per delegate."
 
 omundress:
   type: general
@@ -56,4 +56,4 @@ committeeassign:
 committeepps:
   type: committee
   question: How do Position Papers work at OMUN?
-  answer: "OMUN will be making position papers mandatory this year for all delegates to receive committee awards. They will be marked, counting for 10 points out of 60 towards committee awards. Delegates should target their papers to be one page, single spaced, per topic. Position Papers will be due April 16th. Find out more information at the Delegate Center."
+  answer: "OMUN will be making position papers mandatory this year for all delegates to receive committee awards. They will be marked, counting for 10 points out of 60 towards committee awards. Delegates should target their papers to be one page, single spaced, per topic. Position Papers will be due March 15th. Find out more information at the Delegate Center."
