@@ -23,10 +23,10 @@ omunadvpkg:
   question: "I'm an advisor, and I'd like to know more about the registration process."
   answer: "Our [advisor package](/files/advisor_package.pdf) contains information about registration and the conference. If you have any further questions, feel free to contact us."
 
-omunschedule:
-  type: general
-  question: "Is there a tentative schedule for OMUN?"
-  answer: "While we haven't fully confirmed our schedule, we have attached a temporary schedule in our [advisor package](/files/advisor_package.pdf)."
+# omunschedule:
+#   type: general
+#   question: "Is there a tentative schedule for OMUN?"
+#   answer: "While we haven't fully confirmed our schedule, we have attached a tentative schedule in our [advisor package](/files/advisor_package.pdf)."
 
 omunfee:
   type: general
