@@ -31,7 +31,7 @@ omunadvpkg:
 omunfee:
   type: general
   question: What is the fee structure for OMUN?
-  answer: "Note: registration is closed. Early bird registration ends at November 31st, at $35 per delegate. Normal Registration ends on February 15th, at $45 per delegate."
+  answer: "Note: early bird registration is closed. Early bird registration ends at November 31st, at $45 per delegate. Normal Registration ends on February 15th, at $55 per delegate."
 
 omundress:
   type: general
