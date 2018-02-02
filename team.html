@@ -1,17 +1,37 @@
 ---
-layout: page
+layout: default
 title: Team
 permalink: /team/
 ---
-{% for item in site.data.staff %}
-{% cycle 'group1': '<div class="row">', ''%}
-  <div class="col-md-6">
-    <div class="panel panel-default">
-      <div class="panel-heading">{{ item[1].name }}</div>
-      <div class="panel-body">
-        {{item[1].role}}
+<div class="container">
+  <div class="card card-body mt-2">
+    <div class="row">
+      <div class="col-md-4">
+        <img class="img-fluid rounded" src="{{site.baseurl}}/img/will_and_alex.jpg" alt="Staff at OMUN working hard!"/>
+      </div>
+      <div class="col-md-8">
+        <h1 class="display-4">OMUN Team</h1>
+        <p class="lead">
+          OMUN is comprised of veteran MUNers who have years of experience and have won awards at BMUN (Berkeley), HMUN (Harvard), CMUNCE (Columbia), and SSUNS (McGill). Our staff are dedicated to making OMUN a great conference and an educational experience. If you have any questions, feel free to contact us.
+        </p>
       </div>
     </div>
   </div>
-{% cycle 'group2': '', '</div>' %}
-{% endfor %}
+  {% for item in site.data.staff %}
+  {% cycle 'group1': '<div class="card-deck">', '', '',''%}
+    <div class="card my-2">
+      {% if item[1].photo %}
+      <img class="card-img-top rounded" src="{{site.baseurl}}/img/staff/{{ item[1].photo }}" alt="Photo of {{ item[1].name }}">
+      {% else %}
+      <img class="card-img-top rounded" src="{{site.baseurl}}/img/staff/mwang.jpg" alt="Photo of {{ item[1].name }}">
+      {% endif %}
+      <div class="card-body">
+        <h3 class="card-title">{{ item[1].name }}</h3>
+        <p class="card-text">
+          {{item[1].role}}
+        <p/>
+      </div>
+    </div>
+  {% cycle 'group2': '','','', '</div>' %}
+  {% endfor %}
+</div>

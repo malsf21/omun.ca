@@ -1,24 +1,31 @@
 sg1:
   role: "Secretary General"
   name: "Conrad Mahony"
+  photo: "cmahony.jpg"
 sg2:
   role: "Secretary General"
   name: "Aryan Paliwal"
+  photo: "apaliwal.jpg"
 dg1:
   role: "Director General"
   name: "David Niddam-Dent"
+  photo: "dnd.jpg"
 dg2:
   role: "Director General"
   name: "Adam Rothman"
+  photo: "arothman.jpg"
 usgop1:
   role: "USG Operations"
   name: "Joe Hill"
+  photo: "jhill.jpg"
 usgop2:
   role: "USG Operations"
   name: "Michael Kagan"
+  photo: "mkagan.jpg"
 usgexternal:
   role: "USG External Affairs"
   name: "Ty Greenberg"
+  photo: "tgreenberg.jpg"
 usgadmin:
   role: "USG Administration"
   name: "Charlie Hughes"
@@ -28,12 +35,15 @@ usgcomms:
 usgcommittee1:
   role: "USG Committees"
   name: "Sammy Fleisher"
+  photo: "sfleisher.jpg"
 usgcommittee2:
   role: "USG Committees"
   name: "Adam Sayani"
+  photo: "asayani.jpg"
 usgspecialized1:
   role: "USG Specialized Agencies"
   name: "Cooper Mendelson-Grasse"
+  photo: "cmg.jpg"
 usgspecialized2:
   role: "USG Specialized Agencies"
   name: "Jamie Oneschuk"

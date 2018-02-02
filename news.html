@@ -4,10 +4,10 @@ title: News
 permalink: /news/
 ---
 <div class="container">
-  <div class="jumbotron">
+  <div class="card card-body">
     <div class="row">
       <div class="col-sm-4">
-        <img class="img-responsive img-rounded" src="{{site.baseurl}}/img/will_and_alex.jpg" alt="Previous OMUN Staff hard at work!"/>
+        <img class="img-fluid rounded" src="{{site.baseurl}}/img/will_and_alex.jpg" alt="Previous OMUN Staff hard at work!"/>
       </div>
       <div class="col-sm-8">
         <h1>News</h1>
@@ -16,11 +16,9 @@ permalink: /news/
     </div>
   </div>
   {% for post in site.posts %}
-    <div class="panel panel-info">
-      <div class="panel-heading">
-        <h3 class="panel-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-      </div>
-      <div class="panel-body">
+    <div class="card card-body mt-2">
+      <h3 class="card-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+      <div class="card-text">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</span>
         </br>
         </br>

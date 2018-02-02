@@ -5,40 +5,42 @@ type: info
 ---
 
 <div class="container">
-  <div class="jumbotron">
+  <div class="card card-body">
     <div class="row">
-      <div class="col-sm-4">
-        <img class="img-responsive img-rounded" src="{{site.baseurl}}/img/david_and_friends.jpg" alt="OMUN delegates presenting a resolution in committee."/>
+      <div class="col-md-4">
+        <img class="img-fluid rounded" src="{{site.baseurl}}/img/david_and_friends.jpg" alt="OMUN delegates presenting a resolution in committee."/>
       </div>
-      <div class="col-sm-8">
-        <h1>OMUN Committees</h1>
-        <h2>A Diverse Set of Topics</h2>
+      <div class="col-md-8">
+        <h1 class="display-4">OMUN Committees</h1>
+        <p class="lead mt-2">Committees are the core of Model UN: each committee represents a UN body or another organisation, where each delegate will participate in. Each committee will have a set of topics or goals, that as a group, the committee wants to work towards reaching. </p>
+        <p class="lead">
+          Looking for a delegate matrix? View it <a href="{{site.baseurl}}/files/delegate_matrix.pdf">here.</a>
+        </p>
       </div>
     </div>
   </div>
-  <p class="lead">Committees are the core of Model UN: each committee represents a UN body or another organisation, where each delegate will participate in. Each committee will have a set of topics or goals, that as a group, the committee wants to work towards reaching. </p>
-  <p class="lead">Here, you can see all the committees that will be available at OMUN II! You can click on each invidivual committee to find out more about it, including a brief description, topics, and background guide/position paper information.</p>
-  <p class="lead">
-    Looking for a delegate matrix? View it <a href="{{site.baseurl}}/files/delegate_matrix.pdf">here.</a>
-  </p>
-  <table class="table" data-toggle="table">
-    <thead>
-      <tr>
-        <th data-field="name" data-sortable="true">Committee Name</th>
-        <th data-field="type" data-sortable="true">Committee Type</th>
-        <th data-field="size" data-sortable="true">Committee Size</th>
-        <th>Committee Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for committee in site.committees %}{% unless committee.type == 'info' %}
-      <tr>
-        <td><a href="{{ committee.url | prepend: site.baseurl }}">{{ committee.title }} </a></td>
-        <td>{{ committee.type }} {% if committee.double %}(Double Delegation){% endif %}</td>
-        <td>{{ committee.size }} {% if committee.double %}Teams{% else %}Delegates{% endif %}</td>
-        <td>{{ committee.shortbio }}</td>
-      </tr>
-      {% endunless %}{% endfor %}
-    </tbody>
-  </table>
+  <div class="card card-body mt-2">
+    <div class="table-responsive">
+      <table class="table" data-toggle="table">
+        <thead>
+          <tr>
+            <th data-field="name" data-sortable="true">Committee Name</th>
+            <th data-field="type" data-sortable="true">Committee Type</th>
+            <th data-field="size" data-sortable="true">Committee Size</th>
+            <th>Committee Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for committee in site.committees %}{% unless committee.type == 'info' %}
+          <tr>
+            <td><a href="{{ committee.url | prepend: site.baseurl }}">{{ committee.title }} </a></td>
+            <td>{{ committee.type }} {% if committee.double %}(Double Delegation){% endif %}</td>
+            <td>{{ committee.size }} {% if committee.double %}Teams{% else %}Delegates{% endif %}</td>
+            <td>{{ committee.shortbio }}</td>
+          </tr>
+          {% endunless %}{% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>

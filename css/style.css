@@ -1,24 +1,18 @@
-.bulletin{
-  height:512px;
-  overflow-y:auto;
+body{
+  padding-top: 100px;
+  font-size: 16px;
 }
 .countdown{
   text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
 }
-.full-cover{
-  margin-top:-25px;
-  display:block;
-  max-height:100%;
-  max-width:auto;
-}
 .btn-force-white{
   color:white !important;
 }
-.list-schedule{
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  font-size: 2em;
+.icon-white{
+  color:white;
+  font-size: 1.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }

@@ -2,6 +2,7 @@
 layout: default
 ---
 <script type="text/javascript">
+  /*
   function getTimeRemaining(endtime){
     var t = Date.parse(endtime) - Date.parse(new Date());
     var seconds = Math.floor( (t/1000) % 60 );
@@ -23,59 +24,53 @@ layout: default
   window.setInterval(function(){
     $("#timeLeft").html(getTimeRemaining(deadline));
   }, 1000);
+  */
 </script>
-<img class="full-cover" src="{{site.baseurl}}/img/omun-pan.png" alt="An image of the Upper Canada College Campus, the location where OMUN is held."/>
+<img class="d-none d-lg-block img-fluid" src="{{site.baseurl}}/img/omun-pan.png" alt="An image of the Upper Canada College Campus, the location where OMUN is held."/>
 <div class="container">
-  <div class="countdown">
-    <h2><span id="timeLeft">000 Days, 00 Hours, 00 Minutes, and 00 Seconds until OMUN III!</span></h2>
+  <div class="d-block d-lg-none" >
+    <img class="img-fluid d-block d-lg-none mx-auto" src="{{site.baseurl}}/img/omun.png" alt="The OMUN Logo!"/>
+    <h1 class="display-4 text-center">Ontario Model United Nations III</h1>
+    <h2 class="display-4 text-center">April 7th-8th at Upper Canada College</h2>
   </div>
   <div class="row">
-    <div class="col-md-6">
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3 class="panel-title">What is OMUN?</h3>
-        </div>
-        <div class="panel-body">
-          <b>Ontario Model United Nations</b> is Ontario’s premier Model United Nations Conference held at annually Upper Canada College in Toronto, this year, from April 7th to April 8th. Building on a successful conference last year, OMUN is committed to providing delegates with a conference experience that will suit a wide range of Model UN skill levels and interests. OMUN committees will focus not only on some of the most pressing issues of today, but also on those of the past and future. OMUN III will feature innovative Crisis Committees, interactive General Assemblies, and debate-filled Specialized Agencies, and provide stimulating committees for all delegates. Delegates should look forward to a weekend of exciting debate and negotiation, as well as challenges that will force them to think critically to find solutions.
-        </div>
-         <div class="panel-footer">
-           <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/about/" | prepend: site.baseurl }}" style="color:white;" role="button">About</a>
-           <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/news/" | prepend: site.baseurl }}" style="color:white;" role="button">News</a>
-           <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/committees/" | prepend: site.baseurl }}" style="color:white;" role="button">Committees</a>
-           <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/faq/" | prepend: site.baseurl }}" style="color:white;" role="button">FAQ</a>
-           <!--
-           <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/files/schedule.pdf" | prepend: site.baseurl }}" style="color:white;" role="button">Schedule</a>
-          -->
-           <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/team/" | prepend: site.baseurl }}" style="color:white;" role="button">Team</a>
-           <a class="btn btn-primary btn-xs btn-force-white" href="{{ "/delegate-center/" | prepend: site.baseurl }}" style="color:white;" role="button">Delegate Center</a>
-         </div>
-      </div>
-      <div class="panel panel-primary">
-        <div class="panel-heading">
-          <h3 class="panel-title">Registration is open!</h3>
-        </div>
-        <div class="panel-body">
-          <p class="lead">
-            Visit our <a href="{{site.regurl}}">Registration Page</a> to get started!
+    <div class="col-md-8 offset-md-2">
+      <h1 class="display-4 text-center mt-3">What is OMUN?</h1>
+      <p class="lead">
+        Ontario Model United Nations is Ontario’s premier Model United Nations Conference held at annually Upper Canada College in Toronto, this year, from April 7th to April 8th.
+      </p>
+      <p class="lead">
+        Building on a successful conference last year, OMUN is committed to providing delegates with a conference experience that will suit a wide range of Model UN skill levels and interests. OMUN committees will focus not only on some of the most pressing issues of today, but also on those of the past and future. OMUN III will feature innovative Crisis Committees, interactive General Assemblies, and debate-filled Specialized Agencies, and provide stimulating committees for all delegates. Delegates should look forward to a weekend of exciting debate and negotiation, as well as challenges that will force them to think critically to find solutions.
+      </p>
+      <p class="lead">
+        For more information regarding OMUN’s committees, logistics or registration, don’t hesitate to check out our advisor package or email us at omun@ucc.on.ca.
+      </p>
+      <h1 class="display-4 text-center my-3">OMUN by the numbers</h1>
+      <div class="row text-center">
+        <div class="col-md-3">
+          <h2 class="display-4 text-primary">2</h2>
+          <p>
+            Days filled with stimulating debate on a beautiful campus in the heart of Toronto.
           </p>
         </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div>
-        {% for post in site.posts limit: 1%}
-          <div class="panel panel-info">
-            <div class="panel-heading">
-              <h3 class="panel-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-            </div>
-            <div class="panel-body">
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</span>
-              </br>
-              </br>
-              {{ post.content }}
-            </div>
-          </div>
-        {% endfor %}
+        <div class="col-md-3">
+          <h2 class="display-4 text-primary">11</h2>
+          <p>
+            SMALL committees. Facilitating debate on a wide range of pressing issues catering to every delegate's interests.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h2 class="display-4 text-primary">$0</h2>
+          <p>
+            $0 Delegation Fee. Combined with the lowest delegate fees of all large two-day Model UN Conferences in Ontario.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h2 class="display-4 text-primary">30+</h2>
+          <p>
+            Years of experience. Although this is only the third annual OMUN, this conference builds upon strong roots established by Ontario Model Parliament founded in 1986.
+          </p>
+        </div>
       </div>
     </div>
   </div>

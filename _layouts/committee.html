@@ -8,37 +8,40 @@
     {% include header.html %}
 
     <div class="container">
-      <h1 class="page-header">{{ page.title }}</h1>
-      <div class="row">
-        <div class="col-sm-3">
-          <img class="img-responsive" src="{{ site.baseurl }}/img/committees/{{ page.pic }}" alt="Committee Picture">
-          </br>
-          {% if page.guide %}
-          <a href="{{ site.baseurl }}/files/committees/{{page.guide}}" type="button" class="btn btn-primary btn-block btn-force-white" target="_blank">View Background Guide</a>
-          {% else %}
-            <div class="text-center">
-              <span class="label label-primary">Background Guide Coming Soon!</label>
-            </div>
-          {% endif %}
-          <hr />
-          <p>Committee Size: {{page.size}} {% if page.double %}Teams{% else %}Delegates{% endif %}</p>
-          {% if page.double %}
-            <p>This committee is a double delegation: each delegation consists of two delegates, who both represent their delegation.</p>
-          {% endif %}
-          {% if page.email %}
+      <div class="row mt-2">
+        <div class="col-md-3">
+          <div class="card card-body">
+            <h1 class="display-4 d-block d-lg-none">{{ page.title }}</h1>
+            <img class="img-fluid" src="{{ site.baseurl }}/img/committees/{{ page.pic }}" alt="Committee Picture">
+            </br>
+            {% if page.guide %}
+            <a href="{{ site.baseurl }}/files/committees/{{page.guide}}" type="button" class="btn btn-primary btn-block btn-force-white" target="_blank">View Background Guide</a>
+            {% else %}
+              <div class="text-center">
+                <span class="label label-primary">Background Guide Coming Soon!</label>
+              </div>
+            {% endif %}
             <hr />
-            {% comment %}
-            <p class="lead">
-              Committee Email: <a href="mailto:{{page.email}}">{{page.email}}</a>
-            </p>
-            {% endcomment %}
-            <p>
-              As a reminder, check the <a href="{{site.baseurl}}/delegate-center">delegate center</a> to ensure that your position paper meets our submission guidelines!
-            </p>
-          {% endif %}
+            <p>Committee Size: {{page.size}} {% if page.double %}Teams{% else %}Delegates{% endif %}</p>
+            {% if page.double %}
+              <p>This committee is a double delegation: each delegation consists of two delegates, who both represent their delegation.</p>
+            {% endif %}
+            {% if page.email %}
+              <hr />
+              {% comment %}
+              <p class="lead">
+                Committee Email: <a href="mailto:{{page.email}}">{{page.email}}</a>
+              </p>
+              {% endcomment %}
+              <p>
+                As a reminder, check the <a href="{{site.baseurl}}/delegate-center">delegate center</a> to ensure that your position paper meets our submission guidelines!
+              </p>
+            {% endif %}
+          </div>
         </div>
-        <div class="col-sm-9">
-          <div class="lead" id="content">
+        <div class="col-md-9">
+          <div class="card card-body lead" id="content">
+            <h1 class="display-4 d-none d-lg-block">{{ page.title }}</h1>
             <p>{{ page.shortbio }}</p>
             <p>Information on position papers, topics, and committee sizes are coming soon!</p>
             {% comment %}

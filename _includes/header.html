@@ -1,28 +1,27 @@
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-container" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">OMUN</a>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">OMUN</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <div class="collapse navbar-collapse" id="navbar-collapse-container">
-      <ul class="nav navbar-nav">
-        <li><a href="{{ "/about/" | prepend: site.baseurl }}">About</a></li>
-        <li><a href="{{ "/news/" | prepend: site.baseurl }}">News</a></li>
-        <li><a href="{{ "/committees/" | prepend: site.baseurl }}">Committees</a></li>
-        <li><a href="{{ "/faq/" | prepend: site.baseurl }}">FAQ</a></li>
-        <li><a href="{{ "/team/" | prepend: site.baseurl }}">Team</a></li>
-        <li><a href="{{ "/delegate-center/" | prepend: site.baseurl }}">Delegate Center</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <p class="navbar-text lead"><a href="{{ site.data.contact.facebook }}" style="color:white;"><span class="fa fa-facebook"></span></a> <a href="{{ site.data.contact.twitter }}" style="color:white;"><span class="fa fa-twitter"></span></a> <a href="{{ site.data.contact.instagram }}" style="color:white;"><span class="fa fa-instagram"></span></a></p>
-        <li><form action="{{site.regurl}}" type="POST" data-proofer-ignore><button type="submit" class="btn btn-default navbar-btn">Register</button></form></li>
-      </ul>
-    </div>
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="{{ "/about/" | prepend: site.baseurl }}">About</a></li>
+      <!--
+      <li class="nav-item"><a class="nav-link" href="{{ "/news/" | prepend: site.baseurl }}">News</a></li>
+      -->
+      <li class="nav-item"><a class="nav-link" href="{{ "/committees/" | prepend: site.baseurl }}">Committees</a></li>
+      <li class="nav-item"><a class="nav-link" href="{{ "/faq/" | prepend: site.baseurl }}">FAQ</a></li>
+      <li class="nav-item"><a class="nav-link" href="{{ "/team/" | prepend: site.baseurl }}">Team</a></li>
+      <li class="nav-item"><a class="nav-link" href="{{ "/delegate-center/" | prepend: site.baseurl }}">Delegate Center</a></li>
+    </ul>
+    <p class="navbar-text my-2 mx-2">
+      <a class="icon-white" href="{{ site.data.contact.facebook }}"><span class="fa fa-facebook"></span></a>
+      <a class="icon-white" href="{{ site.data.contact.twitter }}"><span class="fa fa-twitter"></span></a>
+      <a class="icon-white" href="{{ site.data.contact.instagram }}"><span class="fa fa-instagram"></span></a>
+    </p>
+    <form class="form-inline my-2 my-lg-0" action="{{site.regurl}}" type="POST" data-proofer-ignore>
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Register</button>
+    </form>
   </div>
 </nav>

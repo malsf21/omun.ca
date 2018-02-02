@@ -2,8 +2,7 @@ title: Ontario Model United Nations
 description: >
   Ontario Model United Nations is a student-run Model United Nations simulation held at Upper Canada College. On the OMUN website, you can discover what committees are available, general conference information, and register as a delegate or school!
 baseurl: ""
-url: "https://test.omun.ca"
-#url: "https://omun.ca"
+url: "https://omun.ca"
 regurl: "https://reg.omun.ca"
 docurl: "/docs"
 

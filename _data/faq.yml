@@ -1,59 +1,49 @@
-omunwhat:
-  type: general
-  question: What is OMUN?
-  answer: "Ontario Model United Nations is a student-run Model United Nations simulation held at Upper Canada College. You can find out more on our about page."
+general:
+  what:
+    question: What is OMUN?
+    answer: "Ontario Model United Nations is a student-run Model United Nations simulation held at Upper Canada College. You can find out more on our about page."
 
-omunwhen:
-  type: general
-  question: When is OMUN III?
-  answer: "OMUN III is held over two days from **April 7th and 8th**."
+  when:
+    question: When is OMUN III?
+    answer: "OMUN III is held over two days from **April 7th and 8th**."
 
-omunwho:
-  type: general
-  question: Who runs OMUN?
-  answer: "OMUN is an entirely student-run Model UN Simulation; you can find the secretariat, chairs, and other organisational staff at our team page."
-#
-# omunacommodations:
-#   type: general
-#   question: Are there accomodations provided at OMUN?
-#   answer: "OMUN will be partnering with [Holiday Inn](http://www.hitorontoblooryorkville.ca/) on [280 Bloor Street](https://goo.gl/maps/n2vNeWSJcMU2) to provide accomodations at a discounted price. Pricing is set at $165.99 for two double beds from April 21st - April 23rd. Contact the [Holiday Inn](http://www.hitorontoblooryorkville.ca/) or OMUN staff for more information and assistance."
+  who:
+    question: Who runs OMUN?
+    answer: "OMUN is an entirely student-run Model UN Simulation; you can find the secretariat, chairs, and other organisational staff at our team page."
+  #
+  # acommodations:
+  #   question: Are there accomodations provided at OMUN?
+  #   answer: "OMUN will be partnering with [Holiday Inn](http://www.hitorontoblooryorkville.ca/) on [280 Bloor Street](https://goo.gl/maps/n2vNeWSJcMU2) to provide accomodations at a discounted price. Pricing is set at $165.99 for two double beds from April 21st - April 23rd. Contact the [Holiday Inn](http://www.hitorontoblooryorkville.ca/) or OMUN staff for more information and assistance."
 
-omunadvpkg:
-  type: general
-  question: "I'm an advisor, and I'd like to know more about the registration process."
-  answer: "Our [advisor package](/files/advisor_package.pdf) contains information about registration and the conference. If you have any further questions, feel free to contact us."
+  advpkg:
+    question: "I'm an advisor, and I'd like to know more about the registration process."
+    answer: "Our [advisor package](/files/advisor_package.pdf) contains information about registration and the conference. If you have any further questions, feel free to contact us."
 
-# omunschedule:
-#   type: general
-#   question: "Is there a tentative schedule for OMUN?"
-#   answer: "While we haven't fully confirmed our schedule, we have attached a tentative schedule in our [advisor package](/files/advisor_package.pdf)."
+  # schedule:
+  #   question: "Is there a tentative schedule for OMUN?"
+  #   answer: "While we haven't fully confirmed our schedule, we have attached a tentative schedule in our [advisor package](/files/advisor_package.pdf)."
 
-omunfee:
-  type: general
-  question: What is the fee structure for OMUN?
-  answer: "Note: registration is closed. Early bird registration ends at November 31st, at $35 per delegate. Normal Registration ends on February 15th, at $45 per delegate."
+  fee:
+    question: What is the fee structure for OMUN?
+    answer: "Note: registration is closed. Early bird registration ends at November 31st, at $35 per delegate. Normal Registration ends on February 15th, at $45 per delegate."
 
-omundress:
-  type: general
-  question: What is the dress code for OMUN?
-  answer: "OMUN would prefer if delegates came in Western business attire. OMUN specifically bans clothing with offensive remarks, or content that is harms or targets other delegates."
+  dress:
+    question: What is the dress code for OMUN?
+    answer: "OMUN would prefer if delegates came in Western business attire. OMUN specifically bans clothing with offensive remarks, or content that is harms or targets other delegates."
 
-committeetypes:
-  type: committee
-  question: What are the different types of committees at OMUN?
-  answer: "OMUN features three different committee types: General Assemblies (GAs), Specialized Agencies (SAs), and Crisis Committees. General Assemblies are the largest type of committees, and are offical UN committees that feature every UN country. Specialized Agencies feature a subset of UN committees, or a smaller group of non-UN affiliated countries in a non-UN affiliated organisation. Crisis are a special type of committee: instead of passing resolutions, small groups of delegates deal with coming crisis using directives."
+committees:
+  types:
+    question: What are the different types of committees at OMUN?
+    answer: "OMUN features three different committee types: General Assemblies (GAs), Specialized Agencies (SAs), and Crisis Committees. General Assemblies are the largest type of committees, and are offical UN committees that feature every UN country. Specialized Agencies feature a subset of UN committees, or a smaller group of non-UN affiliated countries in a non-UN affiliated organisation. Crisis are a special type of committee: instead of passing resolutions, small groups of delegates deal with coming crisis using directives."
 
-committeesizes:
-  type: committee
-  question: What are the sizes of committees at OMUN?
-  answer: "Each individual committee will have a different committee size, which you can find on our committee page."
+  sizes:
+    question: What are the sizes of committees at OMUN?
+    answer: "Each individual committee will have a different committee size, which you can find on our committee page."
 
-committeeassign:
-  type: committee
-  question: What delegations are in each committee?
-  answer: "You can find our delegate matrix [here](/files/delegate_matrix.pdf)."
+  assign:
+    question: What delegations are in each committee?
+    answer: "You can find our delegate matrix [here](/files/delegate_matrix.pdf)."
 
-committeepps:
-  type: committee
-  question: How do Position Papers work at OMUN?
-  answer: "OMUN will be making position papers mandatory this year for all delegates to receive committee awards. They will be marked, counting for 10 points out of 60 towards committee awards. Delegates should target their papers to be one page, single spaced, per topic. Position Papers will be due March 15th. Find out more information at the Delegate Center."
+  pps:
+    question: How do Position Papers work at OMUN?
+    answer: "OMUN will be making position papers mandatory this year for all delegates to receive committee awards. They will be marked, counting for 10 points out of 60 towards committee awards. Delegates should target their papers to be one page, single spaced, per topic. Position Papers will be due March 15th. Find out more information at the Delegate Center."
