@@ -32,6 +32,7 @@ usgadmin:
 usgcomms:
   role: "USG Communications"
   name: "Matthew Wang"
+  photo: "mwang.jpg"
 usgcommittee1:
   role: "USG Committees"
   name: "Sammy Fleisher"
