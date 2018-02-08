@@ -25,7 +25,7 @@ general:
 
   fee:
     question: What is the fee structure for OMUN?
-    answer: "Early bird registration ends at November 31st, at $35 per delegate. Normal Registration ends on February 15th, at $45 per delegate."
+    answer: "Early bird registration ends at November 31st, at $45 per delegate. Normal Registration ends on February 15th, at $55 per delegate. Late Registration ends on March 20th, at $65 per delegate."
 
   dress:
     question: What is the dress code for OMUN?
