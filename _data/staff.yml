@@ -67,6 +67,7 @@ dusgcommittee:
 dusgspecialized:
   role: "Deputy USG Specialized Agencies"
   name: "Evan Enns"
+  photo: "eenns.jpg"
 dusgexternal:
   role: "Deputy USG External Affairs"
   name: "Gaurav Dogra"
