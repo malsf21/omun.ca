@@ -41,7 +41,7 @@ type: info
             <td>{{ committee.size }} {% if committee.double %}Teams{% else %}Delegates{% endif %}</td>
             <td>{{ committee.shortbio }}</td>
             {% if site.guide %}
-            <td class="text-center"><a href="{{ site.baseurl }}/files/committees/{{page.short}}-BG-OMUN-{{site.year}}.pdf"><i class="fa fa-link"></i></a></td>
+            <td class="text-center"><a href="{{ site.baseurl }}/files/committees/{{committee.short}}-BG-OMUN-{{site.year}}.pdf"><i class="fa fa-link"></i></a></td>
             {% endif %}
           </tr>
           {% endunless %}{% endfor %}
