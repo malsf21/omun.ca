@@ -1,7 +1,7 @@
 ---
 layout: committee
 title: Politburo of Communist Party of China
-short: pcpc
+short: PCPC
 pic: pcpc.svg
 type: Crisis
 size: 20
