@@ -5,6 +5,8 @@ baseurl: ""
 url: "https://omun.ca"
 regurl: "https://reg.omun.ca"
 docurl: "/docs"
+guide: true
+year: 2018
 
 # Build settings
 markdown: kramdown
