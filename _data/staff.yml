@@ -72,6 +72,39 @@ dusgexternal:
   role: "Deputy USG External Affairs"
   name: "Gaurav Dogra"
   photo: "gdogra.jpg"
-# ddaffairs:
-#   role: "Director of Delegate Affairs"
-#   name: "Uche Ochuba"
+ddaffairs:
+  role: "Director of Delegate Affairs"
+  name: "Uche Ochuba"
+vchair1:
+  role: "Vice-Chair"
+  name: "Anya Murphy"
+vchair2:
+  role: "Vice-Chair"
+  name: "Alex Lawson"
+vchair3:
+  role: "Vice-Chair"
+  name: "Madelaine Griffith"
+vchair4:
+  role: "Vice-Chair"
+  name: "Scott Cable"
+vchair5:
+  role: "Vice-Chair"
+  name: "Morgan Headrick"
+vchair6:
+  role: "Vice-Chair"
+  name: "Kristina Matovich"
+vchair7:
+  role: "Vice-Chair"
+  name: "Katarina Lalovic"
+vchair8:
+  role: "Vice-Chair"
+  name: "Konstantinos Tsatsos"
+vchair9:
+  role: "Vice-Chair"
+  name: "Thomas Henn"
+vchair10:
+  role: "Vice-Chair"
+  name: "Zack Nathan"
+vchair11:
+  role: "Vice-Chair"
+  name: "Meg Fanjoy"
