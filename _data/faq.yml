@@ -19,9 +19,9 @@ general:
     question: "I'm an advisor, and I'd like to know more about the registration process."
     answer: "Our [advisor package](/files/advisor_package.pdf) contains information about registration and the conference. If you have any further questions, feel free to contact us."
 
-  # schedule:
-  #   question: "Is there a tentative schedule for OMUN?"
-  #   answer: "While we haven't fully confirmed our schedule, we have attached a tentative schedule in our [advisor package](/files/advisor_package.pdf)."
+  schedule:
+    question: "Is there a schedule for OMUN?"
+    answer: "You can find it on our [schedule page](/schedule/)."
 
   fee:
     question: What is the fee structure for OMUN?
@@ -46,7 +46,16 @@ committees:
 
   pps:
     question: How do Position Papers work at OMUN?
-    answer: "OMUN will be making position papers mandatory this year for all delegates to receive committee awards. They will be marked, counting for 10 points out of 60 towards committee awards. Delegates should target their papers to be one page, single spaced, per topic. Position Papers will be due April 7th. Find out more information at the Delegate Center."
+    answer: "OMUN will be making position papers mandatory this year for all delegates to receive committee awards. They will be marked, counting for 10 points out of 60 towards committee awards. Delegates should target their papers to be one page, single spaced, per topic. Position Papers will be due April 7th. Find out more information at the [Delegate Center](/delegate-center/)."
+
+  ddpps:
+    question: Do double delegations need to submit two position papers?
+    answer: "No, double delegations only need to submit one position paper."
+
   rops:
     question: Is there a Rules of Procedure?
     answer: "You can find our Rules of Procedure [here](/files/rules_of_procedure.pdf)."
+
+  judge:
+    question: How are committees judged?
+    answer: "OMUN has a strict delegate rubric, which you can find [here](/files/rubric.pdf)."
